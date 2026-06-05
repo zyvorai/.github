@@ -13,6 +13,7 @@
   <a href="https://zyvor.dev/demo?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/▶_Watch_demo-F97316?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch demo"/></a>
   <a href="https://dashboard.zyvor.dev?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/Live_dashboard-8B5CF6?style=for-the-badge&logo=grafana&logoColor=white" alt="Dashboard"/></a>
   <a href="https://zyvor.dev/contact?intent=demo&utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/Book_engineering_call-22C55E?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book call"/></a>
+  <a href="https://github.com/sponsors/ssahani?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/Sponsor_ssahani-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor"/></a>
   <a href="mailto:sales@zyvor.dev"><img src="https://img.shields.io/badge/sales@zyvor.dev-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Sales"/></a>
 </p>
 
