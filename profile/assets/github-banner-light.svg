@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="340" viewBox="0 0 1100 340" role="img" aria-label="HyperSDK Platform  Post-VMware infrastructure">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="340" viewBox="0 0 1100 340" role="img" aria-label="HyperSDK Platform â€” Post-VMware infrastructure">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1100" y2="340" gradientUnits="userSpaceOnUse">
       <stop stop-color="#fafafa"/>
@@ -35,12 +35,12 @@
   <text x="64" y="88" fill="#18181b" font-family="system-ui,sans-serif" font-size="46" font-weight="800" letter-spacing="-1.5">Post-VMware</text>
   <text x="64" y="136" fill="#18181b" font-family="system-ui,sans-serif" font-size="46" font-weight="800" letter-spacing="-1.5">Infrastructure</text>
   <text x="64" y="178" fill="#ea580c" font-family="system-ui,sans-serif" font-size="20" font-weight="700" letter-spacing="0.2em">HYPERSDK PLATFORM</text>
-  <text x="64" y="210" fill="#71717a" font-family="system-ui,sans-serif" font-size="17">Zeus suite · Zyvor AI Labs · 12 products · 2,000+ APIs</text>
+  <text x="64" y="210" fill="#71717a" font-family="system-ui,sans-serif" font-size="17">Zeus suite Â· Zyvor AI Labs Â· 12 products Â· 2,000+ APIs</text>
   <g transform="translate(780 72)">
     <rect width="256" height="200" rx="16" fill="#ffffff" stroke="url(#flare)" stroke-width="2"/>
     <text x="128" y="72" text-anchor="middle" fill="#ea580c" font-family="system-ui,sans-serif" font-size="64" font-weight="800">96.8%</text>
     <text x="128" y="102" text-anchor="middle" fill="#18181b" font-family="system-ui,sans-serif" font-size="16" font-weight="600">first-boot success</text>
     <line x1="32" y1="120" x2="224" y2="120" stroke="#e7e5e4"/>
-    <text x="128" y="148" text-anchor="middle" fill="#52525b" font-family="ui-monospace,monospace" font-size="13">10 providers · 400+ dashboard views</text>
+    <text x="128" y="148" text-anchor="middle" fill="#52525b" font-family="ui-monospace,monospace" font-size="13">10 providers Â· 400+ dashboard views</text>
   </g>
 </svg>
