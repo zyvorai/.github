@@ -156,7 +156,7 @@ Everything below is real, working, Apache-2.0 source — not a crippled trial. E
 
 **Get started:** [Demo](https://zyvor.dev/demo?utm_source=github&utm_medium=hypersdk_org) → [ROI calculator](https://zyvor.dev/roi?utm_source=github&utm_medium=hypersdk_org) → [Pricing](https://zyvor.dev/pricing?utm_source=github&utm_medium=hypersdk_org) → [Talk to us](https://zyvor.dev/contact?utm_source=github&utm_medium=hypersdk_org)
 
-Like the free tools? [Sponsor Zyvor AI Labs](https://razorpay.me/@zyvorAILabs) helps keep them maintained.
+**Learn more:** [zyvor.dev/docs](https://zyvor.dev/docs?utm_source=github&utm_medium=hypersdk_org) · [zyvor.dev/blog](https://zyvor.dev/blog?utm_source=github&utm_medium=hypersdk_org)
 
 Maintainers: [GitHub org settings](../GITHUB_ORG_SETTINGS.md) · [Lead tracking](../LEADS.md)
 
