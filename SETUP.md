@@ -20,6 +20,6 @@ Settings → Account → Convert to organization — unlocks org profile README 
 ## Repo About boxes
 | Repo | Website | Topics |
 |------|---------|--------|
-| hypersdk | https://zyvor.dev/hypersdk | vmware, kvm, kubevirt, migration |
-| hyper2kvm | https://zyvor.dev/hyper2kvm | vmware, kvm, migration, python |
+| hypersdk | https://zyvor.dev/hypersdk | virtualization, kvm, kubevirt, migration |
+| hyper2kvm | https://zyvor.dev/hyper2kvm | virtualization, kvm, migration, python |
 | guestkit | https://zyvor.dev/guestkit | rust, kvm, virtualization, migration |
