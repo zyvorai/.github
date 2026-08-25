@@ -1,46 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="340" viewBox="0 0 1100 340" role="img" aria-label="HyperSDK Platform — Post-VMware infrastructure">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Zyvor — open infrastructure for migration, Kubernetes, and the edge">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1100" y2="340" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#fafafa"/>
-      <stop offset="1" stop-color="#fff7ed"/>
+    <linearGradient id="bgL" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="0.6" stop-color="#f5f6f8"/>
+      <stop offset="1" stop-color="#fff1e9"/>
     </linearGradient>
-    <linearGradient id="flare" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#ea580c"/>
-      <stop offset="1" stop-color="#f97316"/>
+    <linearGradient id="flareL" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ff5a15" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#cc420a" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="arrow" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#fdba74"/>
-      <stop offset="1" stop-color="#16a34a"/>
+    <linearGradient id="accentTextL" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#cc420a"/>
+      <stop offset="1" stop-color="#b23705"/>
     </linearGradient>
-    <filter id="blur"><feGaussianBlur stdDeviation="20"/></filter>
+    <filter id="blur1L"><feGaussianBlur stdDeviation="40"/></filter>
   </defs>
-  <rect width="1100" height="340" rx="18" fill="url(#bg)" stroke="#e7e5e4" stroke-width="1"/>
-  <rect y="0" width="1100" height="5" rx="18" fill="url(#flare)"/>
-  <circle cx="120" cy="60" r="90" fill="#f97316" opacity="0.15" filter="url(#blur)"/>
-  <g opacity="0.08" stroke="#ea580c" stroke-width="1">
-    <path d="M0 85h1100M0 170h1100M0 255h1100"/>
+
+  <rect width="1200" height="300" fill="url(#bgL)"/>
+  <circle cx="1040" cy="60" r="220" fill="url(#flareL)" filter="url(#blur1L)"/>
+  <rect x="0.5" y="0.5" width="1199" height="299" fill="none" stroke="#e3e6ea"/>
+
+  <!-- Wordmark -->
+  <text x="64" y="104" fill="#14161a" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="54" font-weight="800" letter-spacing="-1.5">ZYVOR</text>
+  <text x="64" y="140" fill="url(#accentTextL)" font-family="system-ui,sans-serif" font-size="21" font-weight="700" letter-spacing="0.05em">Open infrastructure for the post-legacy estate</text>
+  <text x="64" y="172" fill="#5b6472" font-family="system-ui,sans-serif" font-size="16">Migrate off proprietary hypervisors &amp; HCI · run on Kubernetes &amp; KubeVirt · operate at the edge</text>
+
+  <!-- Flow chips -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" font-weight="600">
+    <rect x="64" y="200" width="108" height="34" rx="8" fill="rgba(204,66,10,0.08)" stroke="rgba(204,66,10,0.35)"/>
+    <text x="118" y="222" text-anchor="middle" fill="#cc420a">Migrate</text>
+
+    <path d="M180 217 h26" stroke="#c7ccd3" stroke-width="2"/>
+    <rect x="214" y="200" width="88" height="34" rx="8" fill="#ffffff" stroke="#e3e6ea"/>
+    <text x="258" y="222" text-anchor="middle" fill="#14161a">Run</text>
+
+    <path d="M310 217 h26" stroke="#c7ccd3" stroke-width="2"/>
+    <rect x="344" y="200" width="108" height="34" rx="8" fill="#ffffff" stroke="#e3e6ea"/>
+    <text x="398" y="222" text-anchor="middle" fill="#14161a">Operate</text>
+
+    <path d="M460 217 h26" stroke="#c7ccd3" stroke-width="2"/>
+    <rect x="494" y="200" width="88" height="34" rx="8" fill="#ffffff" stroke="#e3e6ea"/>
+    <text x="538" y="222" text-anchor="middle" fill="#14161a">Scale</text>
   </g>
-  <g transform="translate(64 248)">
-    <rect width="88" height="44" rx="8" fill="#fff" stroke="#d4d4d8"/>
-    <text x="44" y="28" text-anchor="middle" fill="#52525b" font-family="ui-monospace,monospace" font-size="11" font-weight="600">VMware</text>
-    <path d="M96 22h36" stroke="url(#arrow)" stroke-width="3" stroke-linecap="round"/>
-    <polygon points="132,22 124,17 124,27" fill="#ea580c"/>
-    <rect x="140" width="88" height="44" rx="8" fill="#fff7ed" stroke="#fdba74"/>
-    <text x="184" y="28" text-anchor="middle" fill="#c2410c" font-family="ui-monospace,monospace" font-size="11" font-weight="600">Convert</text>
-    <path d="M236 22h36" stroke="url(#arrow)" stroke-width="3"/>
-    <polygon points="272,22 264,17 264,27" fill="#16a34a"/>
-    <rect x="280" width="100" height="44" rx="8" fill="#f0fdf4" stroke="#86efac"/>
-    <text x="330" y="28" text-anchor="middle" fill="#15803d" font-family="ui-monospace,monospace" font-size="11" font-weight="600">KVM / K8s</text>
-  </g>
-  <text x="64" y="88" fill="#18181b" font-family="system-ui,sans-serif" font-size="46" font-weight="800" letter-spacing="-1.5">Post-VMware</text>
-  <text x="64" y="136" fill="#18181b" font-family="system-ui,sans-serif" font-size="46" font-weight="800" letter-spacing="-1.5">Infrastructure</text>
-  <text x="64" y="178" fill="#ea580c" font-family="system-ui,sans-serif" font-size="20" font-weight="700" letter-spacing="0.2em">HYPERSDK PLATFORM</text>
-  <text x="64" y="210" fill="#71717a" font-family="system-ui,sans-serif" font-size="17">Zeus suite · Zyvor AI Labs · 12 products · 2,000+ APIs</text>
-  <g transform="translate(780 72)">
-    <rect width="256" height="200" rx="16" fill="#ffffff" stroke="url(#flare)" stroke-width="2"/>
-    <text x="128" y="72" text-anchor="middle" fill="#ea580c" font-family="system-ui,sans-serif" font-size="64" font-weight="800">96.8%</text>
-    <text x="128" y="102" text-anchor="middle" fill="#18181b" font-family="system-ui,sans-serif" font-size="16" font-weight="600">first-boot success</text>
-    <line x1="32" y1="120" x2="224" y2="120" stroke="#e7e5e4"/>
-    <text x="128" y="148" text-anchor="middle" fill="#52525b" font-family="ui-monospace,monospace" font-size="13">10 providers · 400+ dashboard views</text>
+
+  <!-- Stat rail -->
+  <g font-family="system-ui,sans-serif">
+    <text x="64" y="270" fill="#14161a" font-size="26" font-weight="800">96.8%</text>
+    <text x="64" y="288" fill="#6e7684" font-size="12">first-boot success</text>
+
+    <line x1="188" y1="248" x2="188" y2="288" stroke="#e3e6ea"/>
+
+    <text x="212" y="270" fill="#14161a" font-size="26" font-weight="800">11</text>
+    <text x="212" y="288" fill="#6e7684" font-size="12">integration targets</text>
+
+    <line x1="372" y1="248" x2="372" y2="288" stroke="#e3e6ea"/>
+
+    <text x="396" y="270" fill="#14161a" font-size="26" font-weight="800">Apache-2.0</text>
+    <text x="396" y="288" fill="#6e7684" font-size="12">core toolkit, open source</text>
   </g>
 </svg>

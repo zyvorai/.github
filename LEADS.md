@@ -6,7 +6,7 @@ All GitHub README and issue-template links should use:
 
 `utm_source=github&utm_medium=<repo>`
 
-Examples: `hyper2kvm`, `hypersdk`, `guestkit`, `netevd`, `netctl`, `cloud-netconfig`, `hypersdk_org` (org profile).
+Examples: `hyper2kvm`, `hypersdk`, `guestkit`, `netevd`, `netctl`, `cloud-netconfig`, `zyvorai_org` (org profile).
 
 Package tarballs use `utm_source=package&utm_medium=<product>`.
 
@@ -22,9 +22,9 @@ Package tarballs use `utm_source=package&utm_medium=<product>`.
 ## Monthly review
 
 1. Contact form exports: group by `utm_medium`
-2. Top referrers in analytics: `github.com/hypersdk/*`
+2. Top referrers in analytics: `github.com/zyvorai/*`
 3. Double down on README/issue links for repos that convert
 
 ## Website
 
-Source: [hypersdk/hypersdk-web](https://github.com/hypersdk/hypersdk-web) (Docusaurus site for zyvor.dev). Referrer-based attribution is implemented in `src/utils/marketingAttribution.ts`.
+Source: [zyvorai/hypersdk-web](https://github.com/zyvorai/hypersdk-web) (Docusaurus site for zyvor.dev). Referrer-based attribution is implemented in `src/utils/marketingAttribution.ts`.

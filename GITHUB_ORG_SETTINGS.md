@@ -1,17 +1,17 @@
 # GitHub organization settings (manual)
 
-Apply these in [github.com/organizations/hypersdk/settings/profile](https://github.com/organizations/hypersdk/settings/profile). Requires org owner permissions.
+Apply these in [github.com/organizations/zyvorai/settings/profile](https://github.com/organizations/zyvorai/settings/profile). Requires org owner permissions.
 
 | Field | Value |
 |-------|--------|
-| **Display name** | HyperSDK |
-| **Description** | Post-VMware VM migration platform — export, convert, deploy, operate |
+| **Display name** | Zyvor AI Labs |
+| **Description** | Open infrastructure for the post-legacy estate — migrate, run, operate, scale |
 | **Website** | `https://zyvor.dev` |
 | **Public email** | `sales@zyvor.dev` |
 | **Location** | (optional) |
 | **Pinned repositories** | `hypersdk`, `hyper2kvm`, `guestkit` |
 
-The org README lives in [hypersdk/.github](https://github.com/hypersdk/.github) (`profile/README.md` on the default branch).
+The org README lives in [zyvorai/.github](https://github.com/zyvorai/.github) (`profile/README.md` on the default branch).
 
 ## Verify
 

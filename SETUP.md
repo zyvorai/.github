@@ -1,21 +1,21 @@
-# hypersdk GitHub setup (manual, one-time)
+# zyvorai GitHub setup (manual, one-time)
 
-Do these logged in as **@hypersdk** at https://github.com/settings/profile
+Do these logged in as an owner of **@zyvorai** at https://github.com/organizations/zyvorai/settings/profile
 
 ## Profile bio
 ```
-HyperSDK Platform · VMware exit · 96.8% first-boot · zyvor.dev/demo
+Zyvor AI Labs · open infrastructure for the post-legacy estate · 96.8% first-boot · zyvor.dev/demo
 ```
 
 ## Pin repositories (order matters)
-1. `hypersdk/hypersdk`
-2. `hypersdk/hyper2kvm`
-3. `hypersdk/guestkit`
+1. `zyvorai/hypersdk`
+2. `zyvorai/hyper2kvm`
+3. `zyvorai/guestkit`
 
 Do **not** pin `.github` (profile README only).
 
 ## Convert to Organization (recommended)
-Settings → Account → Convert to organization — unlocks org profile README at `hypersdk/.github/profile/README.md`.
+Settings → Account → Convert to organization — unlocks org profile README at `zyvorai/.github/profile/README.md`.
 
 ## Repo About boxes
 | Repo | Website | Topics |
