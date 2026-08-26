@@ -8,11 +8,11 @@
   </picture>
 </p>
 
-<h3 align="center">Open infrastructure for the post-legacy estate</h3>
+<h3 align="center">Enterprise infrastructure for the post-legacy estate</h3>
 <p align="center">
   Migrate off proprietary hypervisors &amp; HCI platforms, run on Kubernetes &amp; KubeVirt, operate at the edge —
   one API contract across every layer.<br/>
-  <sub>By <a href="https://zyvor.dev?utm_source=github&utm_medium=zyvorai_org">Zyvor AI Labs</a></sub>
+  <sub><a href="https://zyvor.dev?utm_source=github&utm_medium=zyvorai_org">Zyvor</a> · zyvor.dev</sub>
 </p>
 
 <p align="center">
@@ -23,9 +23,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/zyvorai/hypersdk/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/hypersdk?style=flat-square&logo=github&label=Stars&labelColor=18181B&color=cc420a" alt="Stars"/></a>
-  <a href="https://github.com/zyvorai/hypersdk/network/members"><img src="https://img.shields.io/github/forks/zyvorai/hypersdk?style=flat-square&logo=github&label=Forks&labelColor=18181B&color=cc420a" alt="Forks"/></a>
-  <img src="https://img.shields.io/badge/Open_source_repos-9-18181B?style=flat-square&labelColor=18181B&color=cc420a" alt="Open source repos"/>
+  <a href="https://github.com/zyvorai/transiva/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/transiva?style=flat-square&logo=github&label=Stars&labelColor=18181B&color=cc420a" alt="Stars"/></a>
+  <a href="https://github.com/zyvorai/h2kvm/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/h2kvm?style=flat-square&logo=github&label=h2kvm&labelColor=18181B&color=cc420a" alt="h2kvm"/></a>
   <img src="https://img.shields.io/badge/Apache--2.0-core_toolkit-18181B?style=flat-square&labelColor=18181B" alt="Apache-2.0"/>
   <img src="https://img.shields.io/badge/First_boot-96.8%25-16a34a?style=flat-square&labelColor=18181B" alt="First boot"/>
 </p>
@@ -36,10 +35,10 @@
 
 ```bash
 # Community Edition preview — export, convert, and validate a VM offline
-$ hyperctl export --provider enterprise-hypervisor --vm prod-db-01 --target kvm
+$ transivactl export --provider enterprise-hypervisor --vm prod-db-01 --target kvm
 → Discovered (4 vCPU · 32 GiB · 420 GB)       ✓
 → Streamed export with integrity checks       ✓
-→ hyper2kvm: QCOW2 + VirtIO + bootloader      ✓
+→ k2kvm / h2kvm: QCOW2 + VirtIO + bootloader  ✓
 → GuestKit: guest validated offline           ✓
 → First boot on KVM                           ✓  6.8s
 
@@ -63,19 +62,19 @@ $ hyperctl export --provider enterprise-hypervisor --vm prod-db-01 --target kvm
 <tr>
 <td width="33%" align="center" valign="top">
 
-### 🎯 One pipeline
+### One pipeline
 Not a stack of point tools. **Export → convert → fix → deploy → operate**, one suite, one API contract.
 
 </td>
 <td width="33%" align="center" valign="top">
 
-### ⚡ 96.8% first boot
+### 96.8% first boot
 Automated **VirtIO** injection and bootloader repair, Windows &amp; Linux — migrations that actually finish.
 
 </td>
 <td width="33%" align="center" valign="top">
 
-### 🔒 Enterprise-ready
+### Enterprise-ready
 RBAC/SSO, audit logs, **air-gapped** deployment — built for regulated industries from day one.
 
 </td>
@@ -88,8 +87,8 @@ RBAC/SSO, audit logs, **air-gapped** deployment — built for regulated industri
 
 | Category | What it covers | Explore |
 |:---|:---|:---|
-| **Migrate** | Discover, export, convert, and assure workloads off proprietary hypervisors, HCI platforms, and public cloud | [HyperSDK Platform](https://zyvor.dev/hypersdk?utm_source=github&utm_medium=zyvorai_org) · [hyper2kvm](https://zyvor.dev/hyper2kvm?utm_source=github&utm_medium=zyvorai_org) · [GuestKit](https://zyvor.dev/guestkit?utm_source=github&utm_medium=zyvorai_org) |
-| **Run** | Operate VMs and applications on Kubernetes, KubeVirt, and libvirt from one control plane | [Zeus OS](https://zyvor.dev/zeus-os?utm_source=github&utm_medium=zyvorai_org) · [Veyron](https://zyvor.dev/veyron?utm_source=github&utm_medium=zyvorai_org) · [Hermes](https://zyvor.dev/hermes?utm_source=github&utm_medium=zyvorai_org) |
+| **Migrate** | Discover, export, convert, and assure workloads off proprietary hypervisors, HCI platforms, and public cloud | [Transiva](https://zyvor.dev/zyvor-ai-platform?utm_source=github&utm_medium=zyvorai_org) · [k2kvm](https://zyvor.dev/k2kvm?utm_source=github&utm_medium=zyvorai_org) · [GuestKit](https://zyvor.dev/guestkit?utm_source=github&utm_medium=zyvorai_org) |
+| **Run** | Operate VMs and applications on Kubernetes, KubeVirt, and libvirt from one control plane | [Zeus OS](https://zyvor.dev/zeus-os?utm_source=github&utm_medium=zyvorai_org) · [Veyron](https://zyvor.dev/veyron?utm_source=github&utm_medium=zyvorai_org) · [Hermes](https://zyvor.dev/hermes?utm_source=github&utm_medium=zyvorai_org) · [Machina](https://zyvor.dev/machina?utm_source=github&utm_medium=zyvorai_org) |
 | **Operate** | Deploy anywhere, see every packet, schedule GPUs, automate bare metal, prove reliability | [Aether](https://zyvor.dev/aether?utm_source=github&utm_medium=zyvorai_org) · [PacketWolf](https://zyvor.dev/packetwolf?utm_source=github&utm_medium=zyvorai_org) · [Forge](https://zyvor.dev/forge?utm_source=github&utm_medium=zyvorai_org) |
 | **Scale** | Stand up clusters and sign regulated documents — the bookends of the platform | [HyperCluster](https://zyvor.dev/hypercluster?utm_source=github&utm_medium=zyvorai_org) · [ZySign](https://zyvor.dev/zysign?utm_source=github&utm_medium=zyvorai_org) |
 | **Community Edition** | Apache-2.0 host networking, GPU scheduling simulation, and AI-driven QA — maintained in the open, right here | ↓ see below |
@@ -113,7 +112,7 @@ RBAC/SSO, audit logs, **air-gapped** deployment — built for regulated industri
   <img src="https://img.shields.io/badge/KubeVirt-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
 </p>
 
-11 integration targets today — see the [full migration paths](https://zyvor.dev/products?utm_source=github&utm_medium=zyvorai_org) and [real customer case studies](https://zyvor.dev/case-studies?utm_source=github&utm_medium=zyvorai_org).
+Integration targets today — see the [full migration paths](https://zyvor.dev/products?utm_source=github&utm_medium=zyvorai_org) and [real customer case studies](https://zyvor.dev/case-studies?utm_source=github&utm_medium=zyvorai_org).
 
 <p align="center">
   <a href="https://zyvor.dev/hypervisor-exit?utm_source=github&utm_medium=zyvorai_org"><img src="https://img.shields.io/badge/Hypervisor_exit_program-cc420a?style=for-the-badge"/></a>
@@ -134,15 +133,16 @@ Everything below is real, working, Apache-2.0 source — not a crippled trial. E
 | **What you get** | Full CLI/TUI tooling, self-hosted consoles, Helm charts — the same codebase Enterprise runs | Same codebase + priority fixes, guided playbooks, hardened reference architectures, fleet automation |
 
 **Open source repos:**
-[hypersdk](https://github.com/zyvorai/hypersdk) ·
-[hyper2kvm](https://github.com/zyvorai/hyper2kvm) ·
+[transiva](https://github.com/zyvorai/transiva) ·
+[h2kvm](https://github.com/zyvorai/h2kvm) ·
 [guestkit](https://github.com/zyvorai/guestkit) ·
 [ephemera](https://github.com/zyvorai/ephemera) ·
 [janus](https://github.com/zyvorai/janus) ·
 [argus](https://github.com/zyvorai/argus) ·
 [cloud-netconfig](https://github.com/zyvorai/cloud-netconfig) ·
 [netctl](https://github.com/zyvorai/netctl) ·
-[netevd](https://github.com/zyvorai/netevd)
+[netevd](https://github.com/zyvorai/netevd) ·
+[relay](https://github.com/zyvorai/relay)
 
 **Get started:** [Demo](https://zyvor.dev/demo?utm_source=github&utm_medium=zyvorai_org) → [ROI calculator](https://zyvor.dev/roi?utm_source=github&utm_medium=zyvorai_org) → [Pricing](https://zyvor.dev/pricing?utm_source=github&utm_medium=zyvorai_org) → [Talk to us](https://zyvor.dev/contact?utm_source=github&utm_medium=zyvorai_org)
 
