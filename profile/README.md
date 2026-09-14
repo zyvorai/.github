@@ -139,7 +139,7 @@ Everything below is real, working, Apache-2.0 source — not a crippled trial. E
 | **Zoreon** | Ops chat for infrastructure cutovers | [repo](https://github.com/zyvorai/zoreon) | [pages](https://zyvorai.github.io/zoreon/) |
 | **Aurora** | Product knowledge graph + AI sales / solution agents | [repo](https://github.com/zyvorai/aurora) | — |
 | **relay-edge** | Site topology, simulators, Relay control rooms | [repo](https://github.com/zyvorai/relay-edge) | [pages](https://zyvorai.github.io/relay-edge/) |
-| **relay-edge-bridge** | Protocol-neutral IoT/industrial edge bridge for Relay | [repo](https://github.com/zyvorai/relay-edge-bridge) | — |
+| **relay-edge-bridge** | Protocol-neutral IoT/industrial edge bridge for Relay | [repo](https://github.com/zyvorai/relay-edge-bridge) | [pages](https://zyvorai.github.io/relay-edge-bridge/) |
 | **relay-pubsub** | Google Pub/Sub compatibility gateway for Relay | [repo](https://github.com/zyvorai/relay-pubsub) | [pages](https://zyvorai.github.io/relay-pubsub/) |
 | **Iris** | Suite product (enterprise-linked) | [repo](https://github.com/zyvorai/iris) | — |
 | **Janus** | Suite product (enterprise-linked) | [repo](https://github.com/zyvorai/janus) | — |
