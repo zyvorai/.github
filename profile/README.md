@@ -27,7 +27,8 @@
   <a href="https://github.com/zyvorai/guestkit/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/guestkit?style=flat-square&logo=github&label=guestkit&labelColor=18181B&color=cc420a" alt="guestkit"/></a>
   <a href="https://github.com/zyvorai/haven/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/haven?style=flat-square&logo=github&label=haven&labelColor=18181B&color=cc420a" alt="haven"/></a>
   <a href="https://github.com/zyvorai/kairon/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/kairon?style=flat-square&logo=github&label=kairon&labelColor=18181B&color=cc420a" alt="kairon"/></a>
-  <a href="https://github.com/zyvorai/Aether/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/Aether?style=flat-square&logo=github&label=Aether&labelColor=18181B&color=cc420a" alt="Aether"/></a>
+  <a href="https://github.com/zyvorai/edge-stack/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/edge-stack?style=flat-square&logo=github&label=edge-stack&labelColor=18181B&color=cc420a" alt="edge-stack"/></a>
+  <a href="https://github.com/zyvorai/yard/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/yard?style=flat-square&logo=github&label=yard&labelColor=18181B&color=cc420a" alt="yard"/></a>
   <img src="https://img.shields.io/badge/Apache--2.0-community-18181B?style=flat-square&labelColor=18181B" alt="Apache-2.0"/>
 </p>
 
@@ -55,6 +56,20 @@ $ transivactl export --provider enterprise-hypervisor --vm prod-db-01 --target k
   ·
   <a href="https://zyvor.dev/contact?utm_source=github&utm_medium=zyvorai_org"><b>Contact</b></a>
 </p>
+
+---
+
+## Edge Stack — how the edge products work together
+
+Hardware discovery → offline runtime → fleet control → signed OS updates → ops console → Relay event loop.
+
+| | |
+|:---|:---|
+| **Landing + suite CI** | [zyvorai.github.io/edge-stack](https://zyvorai.github.io/edge-stack/) · [suite CI](https://github.com/zyvorai/edge-stack/actions/workflows/suite-ci.yml) |
+| **How they fit** | [docs/HOW_THEY_FIT.md](https://github.com/zyvorai/edge-stack/blob/main/docs/HOW_THEY_FIT.md) |
+| **Products** | [Device Agent](https://github.com/zyvorai/device-agent) · [Nodra](https://github.com/zyvorai/nodra) · [Fleet](https://github.com/zyvorai/fleet) · [OTA](https://github.com/zyvorai/ota) · [Yard](https://github.com/zyvorai/yard) · [relay-edge](https://github.com/zyvorai/relay-edge) · [relay-pubsub](https://github.com/zyvorai/relay-pubsub) |
+
+Hermetic **suite-ci** proves Device Agent → Yard, Nodra → Yard, Fleet → Yard, and relay-pubsub backend contracts on every push — without claiming each product’s full qualify matrix.
 
 ---
 
@@ -90,9 +105,9 @@ RBAC/SSO, audit logs, **air-gapped** deployment — built for regulated industri
 | Category | What it covers | Explore |
 |:---|:---|:---|
 | **Migrate** | Discover, simulate, convert, and assure workloads off proprietary hypervisors, HCI, and public cloud | [Transiva](https://zyvor.dev/transiva?utm_source=github&utm_medium=zyvorai_org) · [Scout](https://zyvor.dev/scout?utm_source=github&utm_medium=zyvorai_org) · [Chimera](https://zyvor.dev/chimera?utm_source=github&utm_medium=zyvorai_org) · [h2kvm](https://zyvor.dev/h2kvm?utm_source=github&utm_medium=zyvorai_org) · [GuestKit](https://zyvor.dev/guestkit?utm_source=github&utm_medium=zyvorai_org) |
-| **Run** | Operate VMs and apps on Kubernetes, KubeVirt, and libvirt from one control plane | [Aether](https://zyvorai.github.io/Aether/) · [Kairon](https://zyvor.dev?utm_source=github&utm_medium=zyvorai_org) · [Zorvia](https://github.com/zyvorai/zorvia) · [Kryton](https://zyvor.dev/kryton?utm_source=github&utm_medium=zyvorai_org) · [Haven](https://zyvor.dev/haven?utm_source=github&utm_medium=zyvorai_org) · [Fabric](https://zyvor.dev/zyvor-fabric?utm_source=github&utm_medium=zyvorai_org) · [FluxVM](https://zyvor.dev/fluxvm?utm_source=github&utm_medium=zyvorai_org) · [Fleet](https://github.com/zyvorai/fleet) |
-| **Operate** | Private cloud day-2, storage, packets, GPUs, network, reliability | [Axiom](https://zyvor.dev/axiom?utm_source=github&utm_medium=zyvorai_org) · [Atlas](https://github.com/zyvorai/atlas) · [Ragnarok](https://zyvor.dev/ragnarok?utm_source=github&utm_medium=zyvorai_org) · [PacketWolf](https://zyvor.dev/packetwolf?utm_source=github&utm_medium=zyvorai_org) · [Forge](https://zyvor.dev/forge?utm_source=github&utm_medium=zyvorai_org) · [Netra](https://zyvorai.github.io/netra/) · [Yard](https://zyvorai.github.io/yard/) |
-| **Scale** | Stand up clusters, sign documents, edge OTA | [HyperCluster](https://github.com/zyvorai/hypercluster) · [ZySign](https://github.com/zyvorai/zysign) · [OTA](https://zyvorai.github.io/ota/) |
+| **Run** | Operate VMs and apps on Kubernetes, KubeVirt, and libvirt from one control plane | [Kairon](https://zyvor.dev?utm_source=github&utm_medium=zyvorai_org) · [Zorvia](https://github.com/zyvorai/zorvia) · [Kryton](https://zyvor.dev/kryton?utm_source=github&utm_medium=zyvorai_org) · [Haven](https://zyvor.dev/haven?utm_source=github&utm_medium=zyvorai_org) · [Fabric](https://zyvor.dev/zyvor-fabric?utm_source=github&utm_medium=zyvorai_org) · [FluxVM](https://zyvor.dev/fluxvm?utm_source=github&utm_medium=zyvorai_org) |
+| **Operate** | Private cloud day-2, storage, packets, GPUs, network, reliability | [Axiom](https://zyvor.dev/axiom?utm_source=github&utm_medium=zyvorai_org) · [Atlas](https://github.com/zyvorai/atlas) · [Ragnarok](https://zyvor.dev/ragnarok?utm_source=github&utm_medium=zyvorai_org) · [PacketWolf](https://zyvor.dev/packetwolf?utm_source=github&utm_medium=zyvorai_org) · [Zynera](https://github.com/zyvorai/zynera) · [Netra](https://zyvorai.github.io/netra/) · [Yard](https://zyvorai.github.io/yard/) |
+| **Edge** | Offline sites: hardware agent, runtime, fleet, OTA, ops console, Relay | [Edge Stack](https://zyvorai.github.io/edge-stack/) · [Device Agent](https://github.com/zyvorai/device-agent) · [Nodra](https://github.com/zyvorai/nodra) · [Fleet](https://github.com/zyvorai/fleet) · [OTA](https://zyvorai.github.io/ota/) · [Yard](https://zyvorai.github.io/yard/) · [relay-pubsub](https://github.com/zyvorai/relay-pubsub) |
 | **Community Edition** | Apache-2.0 tools in this org — source + GitHub Pages | ↓ table below |
 
 <p align="center"><a href="https://zyvor.dev/products?utm_source=github&utm_medium=zyvorai_org">Full product catalogue →</a> · <a href="https://zyvor.dev/compare?utm_source=github&utm_medium=zyvorai_org">Compare all products →</a></p>
@@ -118,7 +133,7 @@ Everything below is real, working, Apache-2.0 source — not a crippled trial. E
 | **Chimera** | Simulate vSphere / AHV / Hyper-V / cloud for CI | [repo](https://github.com/zyvorai/chimera) | [pages](https://zyvorai.github.io/chimera/) |
 | **GuestKit** | Offline guest repair, boot scoring, cutover passport | [repo](https://github.com/zyvorai/guestkit) | [pages](https://zyvorai.github.io/guestkit/) |
 | **h2kvm** | Hypervisor disk convert → KVM (QCOW2 / VirtIO) | [repo](https://github.com/zyvorai/h2kvm) | — |
-| **Aether** | One YAML → Podman, Kubernetes, and KubeVirt | [repo](https://github.com/zyvorai/Aether) | [pages](https://zyvorai.github.io/Aether/) |
+| **Edge Stack** | Landing page + cross-product suite CI for the edge line | [repo](https://github.com/zyvorai/edge-stack) | [pages](https://zyvorai.github.io/edge-stack/) |
 | **Kairon** | Kubernetes VMs without KubeVirt — FluxVM executes | [repo](https://github.com/zyvorai/kairon) | [pages](https://zyvorai.github.io/kairon/) |
 | **Zorvia** | Run KubeVirt VMs like a platform, not a YAML pile | [repo](https://github.com/zyvorai/zorvia) | [pages](https://zyvorai.github.io/zorvia/) |
 | **FluxVM** | Disposable compute (Firecracker, CH, QEMU/KVM) | [repo](https://github.com/zyvorai/fluxvm) | [pages](https://zyvorai.github.io/fluxvm/) |
