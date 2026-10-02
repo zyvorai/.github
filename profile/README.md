@@ -29,6 +29,8 @@
   <a href="https://github.com/zyvorai/kairon/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/kairon?style=flat-square&logo=github&label=kairon&labelColor=18181B&color=cc420a" alt="kairon"/></a>
   <a href="https://github.com/zyvorai/edge-stack/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/edge-stack?style=flat-square&logo=github&label=edge-stack&labelColor=18181B&color=cc420a" alt="edge-stack"/></a>
   <a href="https://github.com/zyvorai/yard/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/yard?style=flat-square&logo=github&label=yard&labelColor=18181B&color=cc420a" alt="yard"/></a>
+  <a href="https://github.com/zyvorai/gryvia/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/gryvia?style=flat-square&logo=github&label=gryvia&labelColor=18181B&color=cc420a" alt="gryvia"/></a>
+  <a href="https://github.com/zyvorai/zyntra/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/zyntra?style=flat-square&logo=github&label=zyntra&labelColor=18181B&color=cc420a" alt="zyntra"/></a>
   <img src="https://img.shields.io/badge/Apache--2.0-community-18181B?style=flat-square&labelColor=18181B" alt="Apache-2.0"/>
 </p>
 
@@ -73,6 +75,18 @@ Hermetic **suite-ci** proves Device Agent → Yard, Nodra → Yard, Fleet → Ya
 
 ---
 
+## Sovereign AI OS — GPUs, decisions, and the network on your own hardware
+
+Gryvia schedules the GPUs → Zyntra turns live signals into ranked, human-approved actions → Netra watches and enforces the network. Agents can propose; only people approve, and every action lands in a signed audit.
+
+| | |
+|:---|:---|
+| **Products** | [Gryvia](https://github.com/zyvorai/gryvia) — GPU-aware scheduling, GPU as a Service, models and inference · [Zyntra](https://github.com/zyvorai/zyntra) — decision intelligence: sense, simulate, act · [Netra](https://github.com/zyvorai/netra) — eBPF observability and emergency network control |
+| **How they fit** | [docs/sovereign-aios.md](https://github.com/zyvorai/gryvia/blob/main/docs/sovereign-aios.md) · [Gryvia docs](https://zyvorai.github.io/gryvia/) |
+| **Status** | Alpha. Runs on Kubernetes (k3s and up); air-gap ready. |
+
+---
+
 ## What makes this different
 
 <table>
@@ -106,7 +120,8 @@ RBAC/SSO, audit logs, **air-gapped** deployment — built for regulated industri
 |:---|:---|:---|
 | **Migrate** | Discover, simulate, convert, and assure workloads off proprietary hypervisors, HCI, and public cloud | [Transiva](https://zyvor.dev/transiva?utm_source=github&utm_medium=zyvorai_org) · [Scout](https://zyvor.dev/scout?utm_source=github&utm_medium=zyvorai_org) · [Chimera](https://zyvor.dev/chimera?utm_source=github&utm_medium=zyvorai_org) · [h2kvm](https://zyvor.dev/h2kvm?utm_source=github&utm_medium=zyvorai_org) · [GuestKit](https://zyvor.dev/guestkit?utm_source=github&utm_medium=zyvorai_org) |
 | **Run** | Operate VMs and apps on Kubernetes, KubeVirt, and libvirt from one control plane | [Kairon](https://zyvor.dev?utm_source=github&utm_medium=zyvorai_org) · [Zorvia](https://github.com/zyvorai/zorvia) · [Kryton](https://zyvor.dev/kryton?utm_source=github&utm_medium=zyvorai_org) · [Haven](https://zyvor.dev/haven?utm_source=github&utm_medium=zyvorai_org) · [Fabric](https://zyvor.dev/zyvor-fabric?utm_source=github&utm_medium=zyvorai_org) · [FluxVM](https://zyvor.dev/fluxvm?utm_source=github&utm_medium=zyvorai_org) · [Fleet](https://github.com/zyvorai/fleet) |
-| **Operate** | Private cloud day-2, storage, packets, GPUs, network, reliability | [Axiom](https://zyvor.dev/axiom?utm_source=github&utm_medium=zyvorai_org) · [Atlas](https://github.com/zyvorai/atlas) · [Ragnarok](https://zyvor.dev/ragnarok?utm_source=github&utm_medium=zyvorai_org) · [PacketWolf](https://zyvor.dev/packetwolf?utm_source=github&utm_medium=zyvorai_org) · [Zynera](https://github.com/zyvorai/zynera) · [Netra](https://zyvorai.github.io/netra/) · [Yard](https://zyvorai.github.io/yard/) |
+| **Operate** | Private cloud day-2, storage, packets, GPUs, network, reliability | [Axiom](https://zyvor.dev/axiom?utm_source=github&utm_medium=zyvorai_org) · [Atlas](https://github.com/zyvorai/atlas) · [Ragnarok](https://zyvor.dev/ragnarok?utm_source=github&utm_medium=zyvorai_org) · [PacketWolf](https://zyvor.dev/packetwolf?utm_source=github&utm_medium=zyvorai_org) · [Zynera](https://github.com/zyvorai/zynera) · [Netra](https://zyvorai.github.io/netra/) · [Paqtra](https://zyvorai.github.io/paqtra/) · [Rivora](https://zyvorai.github.io/rivora/) · [Shukra](https://github.com/zyvorai/shukra) · [Duvora](https://github.com/zyvorai/duvora) · [Yard](https://zyvorai.github.io/yard/) |
+| **AI** | Schedule GPUs, serve models, and turn live signals into human-approved actions — the Sovereign AI OS | [Gryvia](https://zyvorai.github.io/gryvia/) · [Zyntra](https://github.com/zyvorai/zyntra) · [Solvor](https://github.com/zyvorai/solvor) |
 | **Scale** | Stand up clusters, sign documents, edge OTA | [HyperCluster](https://github.com/zyvorai/hypercluster) · [ZySign](https://github.com/zyvorai/zysign) · [OTA](https://zyvorai.github.io/ota/) |
 | **Edge** | Next: how Device Agent → Nodra → Fleet → OTA → Yard → Relay fit as one stack | **[Edge Stack →](https://zyvorai.github.io/edge-stack/)** |
 | **Community Edition** | Apache-2.0 tools in this org — source + GitHub Pages | ↓ table below |
@@ -147,6 +162,12 @@ Everything below is real, working, Apache-2.0 source — not a crippled trial. E
 | **OTA** | Signed, recoverable A/B device OS updates | [repo](https://github.com/zyvorai/ota) | [pages](https://zyvorai.github.io/ota/) |
 | **Yard** | Assets, sites, telemetry, incidents, work orders | [repo](https://github.com/zyvorai/yard) | [pages](https://zyvorai.github.io/yard/) |
 | **Netra** | Standalone eBPF observability + emergency control | [repo](https://github.com/zyvorai/netra) | [pages](https://zyvorai.github.io/netra/) |
+| **Paqtra** | Cilium-native network observability and operations | [repo](https://github.com/zyvorai/paqtra) | [pages](https://zyvorai.github.io/paqtra/) |
+| **Rivora** | eBPF-native load balancing for every environment | [repo](https://github.com/zyvorai/rivora) | [pages](https://zyvorai.github.io/rivora/) |
+| **Shukra** | eBPF runtime intelligence and security for KVM | [repo](https://github.com/zyvorai/shukra) | — |
+| **Duvora** | DPU fleet control plane (simulation-first evaluation) | [repo](https://github.com/zyvorai/duvora) | — |
+| **Gryvia** | GPU scheduler, GPU as a Service, models and inference | [repo](https://github.com/zyvorai/gryvia) | [pages](https://zyvorai.github.io/gryvia/) |
+| **Solvor** | Native Mac app: drop a file, get answers, nothing leaves the cell | [repo](https://github.com/zyvorai/solvor) | — |
 | **netevd** | Run scripts on Linux netlink interface events | [repo](https://github.com/zyvorai/netevd) | [pages](https://zyvorai.github.io/netevd/) |
 | **netctl** | Async Linux network CLI (`systemctl`-style) | [repo](https://github.com/zyvorai/netctl) | [pages](https://zyvorai.github.io/netctl/) |
 | **cloud-netconfig** | Cloud metadata → secondary IPs and policy routes | [repo](https://github.com/zyvorai/cloud-netconfig) | [pages](https://zyvorai.github.io/cloud-netconfig/) |
@@ -163,6 +184,8 @@ Everything below is real, working, Apache-2.0 source — not a crippled trial. E
 | **Iris** | Suite product (enterprise-linked) | [repo](https://github.com/zyvorai/iris) | — |
 | **Janus** | Suite product (enterprise-linked) | [repo](https://github.com/zyvorai/janus) | — |
 | **Argus** | Suite product (enterprise-linked) | [repo](https://github.com/zyvorai/argus) | — |
+
+[Zyntra](https://github.com/zyvorai/zyntra) is source-available under the Zyvor Production License, not Apache-2.0.
 
 **Get started:** [Demo](https://zyvor.dev/demo?utm_source=github&utm_medium=zyvorai_org) → [Axiom](https://zyvor.dev/axiom?utm_source=github&utm_medium=zyvorai_org) → [Pricing](https://zyvor.dev/pricing?utm_source=github&utm_medium=zyvorai_org) → [Talk to us](https://zyvor.dev/contact?utm_source=github&utm_medium=zyvorai_org)
 
