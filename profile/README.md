@@ -144,46 +144,46 @@ Everything below is real, working, Apache-2.0 source — not a crippled trial. E
 
 | Product | What it does | Source | Docs |
 |:---|:---|:---|:---|
-| **Transiva** | Discover / inventory / orchestrate VM exports (vSphere, AHV) | [repo](https://github.com/zyvorai/transiva) | [pages](https://zyvorai.github.io/transiva/) |
-| **Scout** | Read-only migration discovery and readiness | [repo](https://github.com/zyvorai/scout) | [pages](https://zyvorai.github.io/scout/) |
-| **Chimera** | Simulate vSphere / AHV / Hyper-V / cloud for CI | [repo](https://github.com/zyvorai/chimera) | [pages](https://zyvorai.github.io/chimera/) |
-| **GuestKit** | Offline guest repair, boot scoring, cutover passport | [repo](https://github.com/zyvorai/guestkit) | [pages](https://zyvorai.github.io/guestkit/) |
-| **h2kvm** | Hypervisor disk convert → KVM (QCOW2 / VirtIO) | [repo](https://github.com/zyvorai/h2kvm) | — |
-| **Edge Stack** | Landing page + cross-product suite CI for the edge line | [repo](https://github.com/zyvorai/edge-stack) | [pages](https://zyvorai.github.io/edge-stack/) |
-| **Kairon** | Kubernetes VMs without KubeVirt — FluxVM executes | [repo](https://github.com/zyvorai/kairon) | [pages](https://zyvorai.github.io/kairon/) |
-| **Zorvia** | Run KubeVirt VMs like a platform, not a YAML pile | [repo](https://github.com/zyvorai/zorvia) | [pages](https://zyvorai.github.io/zorvia/) |
-| **FluxVM** | Disposable compute (Firecracker, CH, QEMU/KVM) | [repo](https://github.com/zyvorai/fluxvm) | [pages](https://zyvorai.github.io/fluxvm/) |
-| **Fabric** | Linux private cloud: VMs, net, storage, one daemon | [repo](https://github.com/zyvorai/fabric) | [pages](https://zyvorai.github.io/fabric/) |
-| **Kryton** | Windows VM control plane (KubeVirt / dockur) | [repo](https://github.com/zyvorai/kryton) | [pages](https://zyvorai.github.io/kryton/) |
-| **Haven** | Identity plane — Keycloak + CloudNativePG | [repo](https://github.com/zyvorai/haven) | [pages](https://zyvorai.github.io/haven/) |
-| **Fleet** | Offline-first edge fleet for Linux, k8s, VMs | [repo](https://github.com/zyvorai/fleet) | [pages](https://zyvorai.github.io/fleet/) |
-| **Nodra** | Edge runtime that keeps sites running offline | [repo](https://github.com/zyvorai/nodra) | [pages](https://zyvorai.github.io/nodra/) |
-| **Device Agent** | Linux hardware agent → Nodra / Fleet inventory | [repo](https://github.com/zyvorai/device-agent) | [pages](https://zyvorai.github.io/device-agent/) |
-| **OTA** | Signed, recoverable A/B device OS updates | [repo](https://github.com/zyvorai/ota) | [pages](https://zyvorai.github.io/ota/) |
-| **Yard** | Assets, sites, telemetry, incidents, work orders | [repo](https://github.com/zyvorai/yard) | [pages](https://zyvorai.github.io/yard/) |
-| **Netra** | Standalone eBPF observability + emergency control | [repo](https://github.com/zyvorai/netra) | [pages](https://zyvorai.github.io/netra/) |
-| **Paqtra** | Cilium-native network observability and operations | [repo](https://github.com/zyvorai/paqtra) | [pages](https://zyvorai.github.io/paqtra/) |
+| **Transiva** | Enterprise workload mobility starts with honest offline VM export | [repo](https://github.com/zyvorai/transiva) | [pages](https://zyvorai.github.io/transiva/) |
+| **Scout** | Migration discovery and readiness before migration risk | [repo](https://github.com/zyvorai/scout) | [pages](https://zyvorai.github.io/scout/) |
+| **Chimera** | Programmable infrastructure simulator for migration and automation tests (vSphere today) | [repo](https://github.com/zyvorai/chimera) | [pages](https://zyvorai.github.io/chimera/) |
+| **GuestKit** | Offline VM intelligence and migration assurance: inspect disks, zero boot, zero agents | [repo](https://github.com/zyvorai/guestkit) | [pages](https://zyvorai.github.io/guestkit/) |
+| **h2kvm** | Any hypervisor → KVM: convert offline, fix the guest, deploy with confidence | [repo](https://github.com/zyvorai/h2kvm) | — |
+| **Edge Stack** | One map of the Zyvor edge line: landing page and suite CI | [repo](https://github.com/zyvorai/edge-stack) | [pages](https://zyvorai.github.io/edge-stack/) |
+| **Kairon** | Real VMs, real Kubernetes, no virt-launcher: Kairon orchestrates, FluxVM executes | [repo](https://github.com/zyvorai/kairon) | [pages](https://zyvorai.github.io/kairon/) |
+| **Zorvia** | Kubernetes VMs, run like a platform: CLI, TUI and web console on one API | [repo](https://github.com/zyvorai/zorvia) | [pages](https://zyvorai.github.io/zorvia/) |
+| **FluxVM** | Run real VMs with a real API: one Rust control plane for Firecracker, Cloud Hypervisor, QEMU/KVM and the FluxVM hypervisor | [repo](https://github.com/zyvorai/fluxvm) | [pages](https://zyvorai.github.io/fluxvm/) |
+| **Fabric** | Private cloud control plane for Linux: VMs, networking, storage and security over one daemon | [repo](https://github.com/zyvorai/fabric) | [pages](https://zyvorai.github.io/fabric/) |
+| **Kryton** | One stable machine API, real Windows behind the provider boundary | [repo](https://github.com/zyvorai/kryton) | [pages](https://zyvorai.github.io/kryton/) |
+| **Haven** | Identity for the private cloud: Keycloak + PostgreSQL as one product | [repo](https://github.com/zyvorai/haven) | [pages](https://zyvorai.github.io/haven/) |
+| **Fleet** | Every site, still running: offline-first edge site control plane | [repo](https://github.com/zyvorai/fleet) | [pages](https://zyvorai.github.io/fleet/) |
+| **Nodra** | Open edge runtime that keeps sites running when the cloud doesn't | [repo](https://github.com/zyvorai/nodra) | [pages](https://zyvorai.github.io/nodra/) |
+| **Device Agent** | Linux hardware edge agent: discover the box, publish to Nodra, Fleet inventory | [repo](https://github.com/zyvorai/device-agent) | [pages](https://zyvorai.github.io/device-agent/) |
+| **OTA** | Signed, recoverable device OS updates (RAUC A/B, Ed25519-signed releases) | [repo](https://github.com/zyvorai/ota) | [pages](https://zyvorai.github.io/ota/) |
+| **Yard** | Open asset and operations platform | [repo](https://github.com/zyvorai/yard) | [pages](https://zyvorai.github.io/yard/) |
+| **Netra** | See every packet's story, contain the bad ones: standalone eBPF observability and emergency control | [repo](https://github.com/zyvorai/netra) | [pages](https://zyvorai.github.io/netra/) |
+| **Paqtra** | Why can't A reach B? Traces every flow and shows Cilium's verdict | [repo](https://github.com/zyvorai/paqtra) | [pages](https://zyvorai.github.io/paqtra/) |
 | **Rivora** | eBPF-native load balancing for every environment | [repo](https://github.com/zyvorai/rivora) | [pages](https://zyvorai.github.io/rivora/) |
-| **Shukra** | eBPF runtime intelligence and security for KVM | [repo](https://github.com/zyvorai/shukra) | — |
-| **Duvora** | DPU fleet control plane (simulation-first evaluation) | [repo](https://github.com/zyvorai/duvora) | — |
-| **Gryvia** | GPU scheduler, GPU as a Service, models and inference | [repo](https://github.com/zyvorai/gryvia) | [pages](https://zyvorai.github.io/gryvia/) |
-| **Solvor** | Native Mac app: drop a file, get answers, nothing leaves the cell | [repo](https://github.com/zyvorai/solvor) | — |
-| **netevd** | Run scripts on Linux netlink interface events | [repo](https://github.com/zyvorai/netevd) | [pages](https://zyvorai.github.io/netevd/) |
-| **netctl** | Async Linux network CLI (`systemctl`-style) | [repo](https://github.com/zyvorai/netctl) | [pages](https://zyvorai.github.io/netctl/) |
-| **cloud-netconfig** | Cloud metadata → secondary IPs and policy routes | [repo](https://github.com/zyvorai/cloud-netconfig) | [pages](https://zyvorai.github.io/cloud-netconfig/) |
-| **Kairo** | Blast-radius / capacity verdict before you deploy | [repo](https://github.com/zyvorai/kairo) | [pages](https://zyvorai.github.io/kairo/) |
-| **KubeFlight** | Deterministic Kubernetes preflight simulator | [repo](https://github.com/zyvorai/kubeflight) | [pages](https://zyvorai.github.io/kubeflight/) |
-| **Zoreon** | Ops chat for infrastructure cutovers | [repo](https://github.com/zyvorai/zoreon) | [pages](https://zyvorai.github.io/zoreon/) |
-| **Aurora** | Product knowledge graph + AI sales / solution agents | [repo](https://github.com/zyvorai/aurora) | — |
-| **Atlas** | Storage control plane — intent → Ceph / NFS / ZFS | [repo](https://github.com/zyvorai/atlas) | — |
-| **HyperCluster** | Kubernetes cluster lifecycle for bare metal / private cloud | [repo](https://github.com/zyvorai/hypercluster) | — |
-| **ZySign** | macOS DSC signing toolkit for MCA21 V3 | [repo](https://github.com/zyvorai/zysign) | — |
-| **relay-edge** | Site topology, simulators, Relay control rooms | [repo](https://github.com/zyvorai/relay-edge) | [pages](https://zyvorai.github.io/relay-edge/) |
-| **relay-edge-bridge** | Protocol-neutral IoT/industrial edge bridge for Relay | [repo](https://github.com/zyvorai/relay-edge-bridge) | [pages](https://zyvorai.github.io/relay-edge-bridge/) |
-| **relay-pubsub** | Google Pub/Sub compatibility gateway for Relay | [repo](https://github.com/zyvorai/relay-pubsub) | [pages](https://zyvorai.github.io/relay-pubsub/) |
-| **Iris** | Suite product (enterprise-linked) | [repo](https://github.com/zyvorai/iris) | — |
-| **Janus** | Suite product (enterprise-linked) | [repo](https://github.com/zyvorai/janus) | — |
-| **Argus** | Suite product (enterprise-linked) | [repo](https://github.com/zyvorai/argus) | — |
+| **Shukra** | eBPF-powered runtime intelligence and security for KVM | [repo](https://github.com/zyvorai/shukra) | — |
+| **Duvora** | DPU fleet control plane: plans, isolation, telemetry, incidents and evidence | [repo](https://github.com/zyvorai/duvora) | — |
+| **Gryvia** | GPU is the new CPU. Gryvia is its scheduler | [repo](https://github.com/zyvorai/gryvia) | [pages](https://zyvorai.github.io/gryvia/) |
+| **Solvor** | Drop a file, get answers, nothing leaves the cell: a native Mac app | [repo](https://github.com/zyvorai/solvor) | — |
+| **netevd** | Kernel events → your scripts: Rust network event daemon | [repo](https://github.com/zyvorai/netevd) | [pages](https://zyvorai.github.io/netevd/) |
+| **netctl** | Network configuration CLI for Linux | [repo](https://github.com/zyvorai/netctl) | [pages](https://zyvorai.github.io/netctl/) |
+| **cloud-netconfig** | Automatic network configuration from cloud metadata (Azure, AWS, GCP) | [repo](https://github.com/zyvorai/cloud-netconfig) | [pages](https://zyvorai.github.io/cloud-netconfig/) |
+| **Kairo** | Know the blast radius before you deploy: SAFE / REVIEW / BLOCK verdicts | [repo](https://github.com/zyvorai/kairo) | [pages](https://zyvorai.github.io/kairo/) |
+| **KubeFlight** | Know what may break before you deploy: local-first Kubernetes preflight | [repo](https://github.com/zyvorai/kubeflight) | [pages](https://zyvorai.github.io/kubeflight/) |
+| **Zoreon** | Ops chat: Mattermost is the tape, Zoreon is the product | [repo](https://github.com/zyvorai/zoreon) | [pages](https://zyvorai.github.io/zoreon/) |
+| **Aurora** | Turn your technical product into an AI-powered salesperson | [repo](https://github.com/zyvorai/aurora) | — |
+| **Atlas** | The world of storage, under one command | [repo](https://github.com/zyvorai/atlas) | — |
+| **HyperCluster** | Kubernetes cluster lifecycle for bare metal and private cloud | [repo](https://github.com/zyvorai/hypercluster) | — |
+| **ZySign** | Sign MCA eForms from your Mac with a USB DSC token, no emBridge | [repo](https://github.com/zyvorai/zysign) | — |
+| **relay-edge** | IoT simulators and site context for Relay (farm, firewater, remote edge, fleet) | [repo](https://github.com/zyvorai/relay-edge) | [pages](https://zyvorai.github.io/relay-edge/) |
+| **relay-edge-bridge** | Protocol-neutral IoT/industrial edge bridge for Relay (Modbus, MQTT, HTTP) | [repo](https://github.com/zyvorai/relay-edge-bridge) | [pages](https://zyvorai.github.io/relay-edge-bridge/) |
+| **relay-pubsub** | Google Cloud Pub/Sub compatibility gateway for Relay | [repo](https://github.com/zyvorai/relay-pubsub) | [pages](https://zyvorai.github.io/relay-pubsub/) |
+| **Iris** | The application operating layer for Kubernetes | [repo](https://github.com/zyvorai/iris) | — |
+| **Janus** | Discrete-event simulator for Kubernetes-native GPU scheduling | [repo](https://github.com/zyvorai/janus) | — |
+| **Argus** | AI-first test platform: requirements → Playwright tests → regression reports | [repo](https://github.com/zyvorai/argus) | — |
 
 [Zyntra](https://github.com/zyvorai/zyntra) is source-available under the Zyvor Production License, not Apache-2.0.
 

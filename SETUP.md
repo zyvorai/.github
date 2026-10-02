@@ -32,5 +32,5 @@ Until then, the user profile README is [zyvorai/zyvorai](https://github.com/zyvo
 | scout | https://zyvor.dev/scout | migration, discovery, kvm |
 | kairo | https://zyvor.dev/kairo | kubernetes, preflight, capacity |
 | kubeflight | https://zyvor.dev/kubeflight | kubernetes, preflight, rbac |
-| fluxvm | https://zyvor.dev/fluxvm | qemu, firecracker, disposable-vm |
+| fluxvm | https://zyvor.dev/fluxvm | hypervisor, kvm, microvm, qemu, rust |
 | zyvor-axiom | https://zyvor.dev/axiom | kubernetes, k3s, private-cloud |
