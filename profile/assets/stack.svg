@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400" role="img" aria-label="How Zyvor fits together: legacy hypervisors migrate via Transiva and GuestKit into FluxVM on bare metal; Kairon and Zorvia run VMs on Kubernetes; Gryvia and Zyntra add GPUs and decisions; Netra, Paqtra and Rivora observe with eBPF; Nodra, Fleet and OTA bring edge sites in.">
+  <style>
+    .t { font-family: system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif; }
+    .m { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
+    .flow { stroke-dasharray: 6 8; animation: dash 1.4s linear infinite; }
+    .obs { stroke-dasharray: 2 7; animation: dash 2.2s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -28; } }
+    .hot { animation: hot 4s ease-in-out infinite; }
+    @keyframes hot { 0%,100% { stroke-opacity: .55; } 50% { stroke-opacity: 1; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0f0f12"/><stop offset="1" stop-color="#1a1109"/></linearGradient>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#ff7a2e"/></marker>
+    <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#8b8b95"/></marker>
+  </defs>
+  <rect width="1000" height="400" rx="16" fill="url(#bg)"/>
+  <rect x=".5" y=".5" width="999" height="399" rx="16" fill="none" stroke="rgba(255,255,255,.1)"/>
+
+  <g fill="none" stroke-width="2">
+    <path class="flow" d="M240 62H272" stroke="#8b8b95" marker-end="url(#ag)"/>
+    <path class="flow" d="M380 94V160" stroke="#ff7a2e" marker-end="url(#ar)"/>
+    <path class="flow" d="M240 200H272" stroke="#ff7a2e" marker-end="url(#ar)"/>
+    <path class="flow" d="M480 200H512" stroke="#ff7a2e" marker-end="url(#ar)"/>
+    <path class="flow" d="M720 200H752" stroke="#ff7a2e" marker-end="url(#ar)"/>
+    <path class="obs" d="M470 306L400 240" stroke="#8b8b95" marker-end="url(#ag)"/>
+    <path class="obs" d="M530 306L600 240" stroke="#8b8b95" marker-end="url(#ag)"/>
+    <path class="flow" d="M820 306L700 240" stroke="#ff7a2e" marker-end="url(#ar)"/>
+  </g>
+
+  <g class="t">
+    <rect x="40" y="30" width="200" height="64" rx="12" fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.14)" stroke-dasharray="4 4"/>
+    <text x="140" y="58" fill="#a1a1aa" font-size="15" font-weight="700" text-anchor="middle">Legacy hypervisors</text>
+    <text x="140" y="78" fill="#71717a" font-size="12" text-anchor="middle">what you're leaving</text>
+
+    <rect x="280" y="30" width="200" height="64" rx="12" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.16)"/>
+    <text x="380" y="58" fill="#f5f5f7" font-size="15" font-weight="700" text-anchor="middle">Migrate</text>
+    <text class="m" x="380" y="78" fill="#ffb088" font-size="12" text-anchor="middle">Transiva + GuestKit</text>
+
+    <rect x="40" y="168" width="200" height="64" rx="12" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.16)"/>
+    <text x="140" y="196" fill="#f5f5f7" font-size="15" font-weight="700" text-anchor="middle">Bare metal</text>
+    <text class="m" x="140" y="216" fill="#a1a1aa" font-size="12" text-anchor="middle">Linux + KVM</text>
+
+    <rect class="hot" x="280" y="168" width="200" height="64" rx="12" fill="rgba(255,90,21,.12)" stroke="#ff5a15" stroke-width="1.5"/>
+    <text x="380" y="196" fill="#f5f5f7" font-size="15" font-weight="700" text-anchor="middle">Run VMs</text>
+    <text class="m" x="380" y="216" fill="#ffb088" font-size="12" text-anchor="middle">FluxVM</text>
+
+    <rect class="hot" x="520" y="168" width="200" height="64" rx="12" fill="rgba(255,90,21,.12)" stroke="#ff5a15" stroke-width="1.5"/>
+    <text x="620" y="196" fill="#f5f5f7" font-size="15" font-weight="700" text-anchor="middle">Kubernetes VMs</text>
+    <text class="m" x="620" y="216" fill="#ffb088" font-size="12" text-anchor="middle">Kairon + Zorvia</text>
+
+    <rect x="760" y="168" width="200" height="64" rx="12" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.16)"/>
+    <text x="860" y="196" fill="#f5f5f7" font-size="15" font-weight="700" text-anchor="middle">GPUs + decisions</text>
+    <text class="m" x="860" y="216" fill="#ffb088" font-size="12" text-anchor="middle">Gryvia + Zyntra</text>
+
+    <rect x="400" y="306" width="200" height="64" rx="12" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.16)"/>
+    <text x="500" y="334" fill="#f5f5f7" font-size="15" font-weight="700" text-anchor="middle">Observe with eBPF</text>
+    <text class="m" x="500" y="354" fill="#ffb088" font-size="12" text-anchor="middle">Netra + Paqtra + Rivora</text>
+
+    <rect x="720" y="306" width="200" height="64" rx="12" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.16)"/>
+    <text x="820" y="334" fill="#f5f5f7" font-size="15" font-weight="700" text-anchor="middle">Edge sites</text>
+    <text class="m" x="820" y="354" fill="#ffb088" font-size="12" text-anchor="middle">Nodra + Fleet + OTA</text>
+  </g>
+</svg>

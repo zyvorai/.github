@@ -95,17 +95,9 @@ kaironctl migrate demo --strategy live --target-node worker-2
 
 ## How it fits together
 
-```mermaid
-flowchart LR
-  hw["Bare metal / KVM"] --> flux["FluxVM: run VMs"]
-  flux --> kairon["Kairon + Zorvia: Kubernetes VMs"]
-  kairon --> ai["Gryvia + Zyntra: GPUs and decisions"]
-  legacy["Legacy hypervisors"] --> migrate["Transiva + GuestKit: migrate"]
-  migrate --> flux
-  ebpf["Netra + Paqtra + Rivora: eBPF"] -.->|observes| kairon
-  ebpf -.->|observes| flux
-  edge["Nodra + Fleet + OTA: edge sites"] --> kairon
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/stack.svg" width="92%" alt="How Zyvor fits together: migrate into FluxVM, run VMs on Kubernetes with Kairon, add GPUs with Gryvia, observe with eBPF, extend to the edge"/>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Rust-18181b?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
