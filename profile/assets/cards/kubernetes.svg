@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="220" viewBox="0 0 420 220" role="img" aria-label="Kubernetes VMs: VMs as Kubernetes citizens without KubeVirt. Kairon, Zorvia, Kryton.">
+  <style>
+    .t { font-family: system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif; }
+    .m { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
+    .bar { animation: sweep 4s ease-in-out infinite; animation-delay: .6s; }
+    @keyframes sweep { 0% { transform: translateX(-160px); } 100% { transform: translateX(420px); } }
+    .ic { animation: spin 18s linear infinite; transform-origin: 52px 54px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#141418"/><stop offset="1" stop-color="#1f140c"/></linearGradient>
+    <linearGradient id="sh" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff5a15" stop-opacity="0"/><stop offset=".5" stop-color="#ff7a2e"/><stop offset="1" stop-color="#ff5a15" stop-opacity="0"/></linearGradient>
+    <clipPath id="c"><rect width="420" height="220" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="420" height="220" fill="url(#bg)"/>
+    <rect class="bar" width="160" height="3" fill="url(#sh)"/>
+  </g>
+  <rect x=".5" y=".5" width="419" height="219" rx="16" fill="none" stroke="rgba(255,255,255,.1)"/>
+  <g class="ic" fill="none" stroke="#ff7a2e" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M52 30l20 10 5 22-14 18H41L27 62l5-22z"/>
+    <circle cx="52" cy="54" r="6"/>
+    <path d="M52 36v12M52 60v12M36 48l10 4M58 56l10 4M36 62l10-4M58 52l10-4"/>
+  </g>
+  <text class="t" x="96" y="56" fill="#f5f5f7" font-size="24" font-weight="800">Kubernetes VMs</text>
+  <text class="t" x="96" y="78" fill="#ff8f4f" font-size="13" font-weight="600">Kubernetes declares. We orchestrate.</text>
+  <text class="t" x="30" y="118" fill="#c4c4cc" font-size="15">VMs as first-class Kubernetes citizens,</text>
+  <text class="t" x="30" y="140" fill="#c4c4cc" font-size="15">without KubeVirt. Live migrate, hotplug, RBAC.</text>
+  <g class="m" font-size="12" font-weight="600">
+    <rect x="30" y="166" width="72" height="26" rx="13" fill="rgba(255,90,21,.14)" stroke="rgba(255,90,21,.45)"/><text x="66" y="183" fill="#ffb088" text-anchor="middle">Kairon</text>
+    <rect x="110" y="166" width="72" height="26" rx="13" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.14)"/><text x="146" y="183" fill="#e4e4ea" text-anchor="middle">Zorvia</text>
+    <rect x="190" y="166" width="72" height="26" rx="13" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.14)"/><text x="226" y="183" fill="#e4e4ea" text-anchor="middle">Kryton</text>
+  </g>
+</svg>

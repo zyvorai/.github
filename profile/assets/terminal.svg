@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="400" viewBox="0 0 880 400" role="img" aria-label="Terminal demo: boot a VM with fluxctl, run a command over vsock, schedule it on Kubernetes with kaironctl, and live-migrate it.">
+  <style>
+    .m { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size: 15px; }
+    .l { animation-duration: 16s; animation-iteration-count: infinite; animation-timing-function: steps(1); }
+    .l1 { animation-name: a1; } .l2 { animation-name: a2; } .l3 { animation-name: a3; } .l4 { animation-name: a4; }
+    .l5 { animation-name: a5; } .l6 { animation-name: a6; } .l7 { animation-name: a7; } .l8 { animation-name: a8; }
+    .l9 { animation-name: a9; } .l10 { animation-name: a10; }
+    @keyframes a1 { 0% { opacity: 0; } 3% { opacity: 1; } 94% { opacity: 0; } }
+    @keyframes a2 { 0% { opacity: 0; } 11% { opacity: 1; } 94% { opacity: 0; } }
+    @keyframes a3 { 0% { opacity: 0; } 18% { opacity: 1; } 94% { opacity: 0; } }
+    @keyframes a4 { 0% { opacity: 0; } 24% { opacity: 1; } 94% { opacity: 0; } }
+    @keyframes a5 { 0% { opacity: 0; } 32% { opacity: 1; } 94% { opacity: 0; } }
+    @keyframes a6 { 0% { opacity: 0; } 41% { opacity: 1; } 94% { opacity: 0; } }
+    @keyframes a7 { 0% { opacity: 0; } 49% { opacity: 1; } 94% { opacity: 0; } }
+    @keyframes a8 { 0% { opacity: 0; } 59% { opacity: 1; } 94% { opacity: 0; } }
+    @keyframes a9 { 0% { opacity: 0; } 67% { opacity: 1; } 94% { opacity: 0; } }
+    @keyframes a10 { 0% { opacity: 0; } 76% { opacity: 1; } 94% { opacity: 0; } }
+    .caret { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#111114"/><stop offset="1" stop-color="#0a0a0c"/></linearGradient>
+  </defs>
+  <rect width="880" height="400" rx="14" fill="url(#bg)"/>
+  <rect x=".5" y=".5" width="879" height="399" rx="14" fill="none" stroke="rgba(255,255,255,.1)"/>
+  <path d="M0 14a14 14 0 0 1 14-14h852a14 14 0 0 1 14 14v26H0z" fill="#1a1a1f"/>
+  <circle cx="24" cy="20" r="6" fill="#ff5f57"/><circle cx="44" cy="20" r="6" fill="#febc2e"/><circle cx="64" cy="20" r="6" fill="#28c840"/>
+  <text x="440" y="25" fill="#7c7c86" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="13">zyvor ~ from bare metal to live-migrating Kubernetes VMs</text>
+
+  <g class="m" xml:space="preserve">
+    <text class="l l1" x="28" y="76"><tspan fill="#ff7a2e">$</tspan><tspan fill="#f5f5f7"> sudo fluxctl create --spec examples/qemu.json</tspan></text>
+    <text class="l l2" x="28" y="102" fill="#28c840">&#10003; <tspan fill="#a1a1aa">vm 7f3a running &#183; backend qemu/kvm &#183; no libvirtd</tspan></text>
+
+    <text class="l l3" x="28" y="142"><tspan fill="#ff7a2e">$</tspan><tspan fill="#f5f5f7"> fluxctl exec 7f3a -- hostname</tspan></text>
+    <text class="l l4" x="28" y="168" fill="#a1a1aa">demo-7f3a   <tspan fill="#71717a"># over vsock, no SSH</tspan></text>
+
+    <text class="l l5" x="28" y="208"><tspan fill="#ff7a2e">$</tspan><tspan fill="#f5f5f7"> kaironctl create demo --image ubuntu.qcow2 --cpu 2 --memory 2Gi</tspan></text>
+    <text class="l l6" x="28" y="234" fill="#28c840">&#10003; <tspan fill="#a1a1aa">machine/demo scheduled on worker-1 &#183; no KubeVirt</tspan></text>
+
+    <text class="l l7" x="28" y="274"><tspan fill="#ff7a2e">$</tspan><tspan fill="#f5f5f7"> kaironctl migrate demo --strategy live --target-node worker-2</tspan></text>
+    <text class="l l8" x="28" y="300" fill="#28c840">&#10003; <tspan fill="#a1a1aa">live migration complete &#183; demo now on worker-2</tspan></text>
+
+    <text class="l l9" x="28" y="340"><tspan fill="#ff7a2e">$</tspan><tspan fill="#f5f5f7"> kaironctl network flows demo --limit 20</tspan></text>
+    <text class="l l10" x="28" y="366" fill="#a1a1aa">eBPF flow log streaming&#8230;<tspan class="caret" fill="#ff7a2e"> &#9608;</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="Zyvor: infrastructure, rebuilt from the kernel up. Virtualize, orchestrate, observe, migrate, edge.">
+  <style>
+    .glow { animation: pulse 6s ease-in-out infinite; transform-origin: 1060px 90px; }
+    .glow2 { animation: pulse 8s ease-in-out infinite reverse; transform-origin: 180px 420px; }
+    @keyframes pulse { 0%,100% { opacity: .5; transform: scale(1); } 50% { opacity: .85; transform: scale(1.12); } }
+    .flow { stroke-dasharray: 6 10; animation: dash 1.6s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -32; } }
+    .node { fill: #ffffff; stroke: rgba(15,15,20,.14); animation: lit 7.5s ease-in-out infinite; }
+    .n2 { animation-delay: 1.5s; } .n3 { animation-delay: 3s; } .n4 { animation-delay: 4.5s; } .n5 { animation-delay: 6s; }
+    @keyframes lit { 0%,22%,100% { stroke: rgba(15,15,20,.14); fill: #ffffff; } 6%,14% { stroke: #e2520f; fill: #fff1e8; } }
+    .mark { animation: float 5s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+    .caret { animation: blink 1.1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .t { font-family: system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif; }
+    .m { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset=".6" stop-color="#fafafa"/>
+      <stop offset="1" stop-color="#fff3ea"/>
+    </linearGradient>
+    <radialGradient id="flare" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1060 90) scale(320)">
+      <stop stop-color="#ff7a2e" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#ff7a2e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="flare2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 420) scale(260)">
+      <stop stop-color="#ff5a15" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#ff5a15" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="z" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ff6a1f"/>
+      <stop offset="1" stop-color="#cc420a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#e2520f"/>
+      <stop offset="1" stop-color="#c2361a"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="rgba(0,0,0,.04)"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <rect width="1280" height="420" fill="url(#grid)"/>
+  <circle class="glow" cx="1060" cy="90" r="320" fill="url(#flare)"/>
+  <circle class="glow2" cx="180" cy="420" r="260" fill="url(#flare2)"/>
+  <rect x=".5" y=".5" width="1279" height="419" rx="18" fill="none" stroke="rgba(0,0,0,.08)"/>
+
+  <g class="mark">
+    <rect x="72" y="72" width="104" height="104" rx="26" fill="url(#z)"/>
+    <path d="M100 104H148L100 148H148" fill="none" stroke="#fff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text class="t" x="204" y="128" fill="#0f0f14" font-size="64" font-weight="800" letter-spacing="-2">ZYVOR</text>
+  <text class="m" x="208" y="166" fill="#6b6b75" font-size="16" letter-spacing="1">github.com/zyvorai<tspan class="caret" fill="#e2520f">_</tspan></text>
+
+  <text class="t" x="72" y="236" fill="url(#accent)" font-size="38" font-weight="800" letter-spacing="-1">Infrastructure, rebuilt from the kernel up.</text>
+  <text class="t" x="72" y="272" fill="#3f3f46" font-size="18">VMs without libvirt &#183; Kubernetes without KubeVirt &#183; eBPF networking &#183; GPU scheduling &#183; offline-first edge</text>
+
+  <g class="m" font-size="14" font-weight="600" text-anchor="middle">
+    <path class="flow" d="M196 342H252M388 342H444M580 342H636M772 342H828" stroke="#e2520f" stroke-width="2"/>
+    <rect class="node" x="72" y="320" width="124" height="44" rx="10" stroke-width="1.5"/>
+    <text x="134" y="347" fill="#0f0f14">Virtualize</text>
+    <rect class="node n2" x="252" y="320" width="136" height="44" rx="10" stroke-width="1.5"/>
+    <text x="320" y="347" fill="#0f0f14">Orchestrate</text>
+    <rect class="node n3" x="444" y="320" width="136" height="44" rx="10" stroke-width="1.5"/>
+    <text x="512" y="347" fill="#0f0f14">Observe</text>
+    <rect class="node n4" x="636" y="320" width="136" height="44" rx="10" stroke-width="1.5"/>
+    <text x="704" y="347" fill="#0f0f14">Migrate</text>
+    <rect class="node n5" x="828" y="320" width="124" height="44" rx="10" stroke-width="1.5"/>
+    <text x="890" y="347" fill="#0f0f14">Edge</text>
+  </g>
+
+  <g class="t" text-anchor="end">
+    <text x="1208" y="330" fill="#0f0f14" font-size="28" font-weight="800">47</text>
+    <text x="1208" y="350" fill="#71717a" font-size="13">open repositories</text>
+    <text x="1208" y="384" fill="#0f0f14" font-size="15" font-weight="700">Rust &#183; Go &#183; eBPF</text>
+    <text x="1208" y="402" fill="#71717a" font-size="13">Apache-2.0 core</text>
+  </g>
+</svg>
