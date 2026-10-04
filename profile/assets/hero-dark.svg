@@ -7,7 +7,7 @@
     @keyframes dash { to { stroke-dashoffset: -32; } }
     .node { fill: rgba(255,255,255,.04); stroke: rgba(255,255,255,.14); animation: lit 7.5s ease-in-out infinite; }
     .n2 { animation-delay: 1.5s; } .n3 { animation-delay: 3s; } .n4 { animation-delay: 4.5s; } .n5 { animation-delay: 6s; }
-    @keyframes lit { 0%,22%,100% { stroke: rgba(255,255,255,.14); fill: rgba(255,255,255,.04); } 6%,14% { stroke: #ff5a15; fill: rgba(255,90,21,.16); } }
+    @keyframes lit { 0%,22%,100% { stroke: rgba(255,255,255,.14); fill: rgba(255,255,255,.04); } 6%,14% { stroke: #0071e3; fill: rgba(41,151,255,.16); } }
     .mark { animation: float 5s ease-in-out infinite; }
     @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
     .caret { animation: blink 1.1s steps(1) infinite; }
@@ -19,23 +19,23 @@
     <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
       <stop stop-color="#07070a"/>
       <stop offset=".6" stop-color="#0b0b0f"/>
-      <stop offset="1" stop-color="#1d1107"/>
+      <stop offset="1" stop-color="#06101d"/>
     </linearGradient>
     <radialGradient id="flare" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1060 90) scale(320)">
-      <stop stop-color="#ff5a15" stop-opacity=".55"/>
-      <stop offset="1" stop-color="#ff5a15" stop-opacity="0"/>
+      <stop stop-color="#0071e3" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#0071e3" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="flare2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 420) scale(260)">
-      <stop stop-color="#cc420a" stop-opacity=".35"/>
-      <stop offset="1" stop-color="#cc420a" stop-opacity="0"/>
+      <stop stop-color="#0071e3" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#0071e3" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="z" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#ff6a1f"/>
       <stop offset="1" stop-color="#cc420a"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#ff7a2e"/>
-      <stop offset="1" stop-color="#ff4d2e"/>
+      <stop stop-color="#2997ff"/>
+      <stop offset="1" stop-color="#64b5ff"/>
     </linearGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <path d="M32 0H0V32" fill="none" stroke="rgba(255,255,255,.035)"/>
@@ -54,13 +54,13 @@
   </g>
 
   <text class="t" x="204" y="128" fill="#f5f5f7" font-size="64" font-weight="800" letter-spacing="-2">ZYVOR</text>
-  <text class="m" x="208" y="166" fill="#8b8b95" font-size="16" letter-spacing="1">github.com/zyvorai<tspan class="caret" fill="#ff5a15">_</tspan></text>
+  <text class="m" x="208" y="166" fill="#8b8b95" font-size="16" letter-spacing="1">github.com/zyvorai<tspan class="caret" fill="#0071e3">_</tspan></text>
 
   <text class="t" x="72" y="236" fill="url(#accent)" font-size="38" font-weight="800" letter-spacing="-1">Infrastructure, rebuilt from the kernel up.</text>
   <text class="t" x="72" y="272" fill="#b4b4be" font-size="18">VMs without libvirt &#183; Kubernetes without KubeVirt &#183; eBPF networking &#183; GPU scheduling &#183; offline-first edge</text>
 
   <g class="m" font-size="14" font-weight="600" text-anchor="middle">
-    <path class="flow" d="M196 342H252M388 342H444M580 342H636M772 342H828" stroke="#ff5a15" stroke-width="2"/>
+    <path class="flow" d="M196 342H252M388 342H444M580 342H636M772 342H828" stroke="#0071e3" stroke-width="2"/>
     <rect class="node" x="72" y="320" width="124" height="44" rx="10" stroke-width="1.5"/>
     <text x="134" y="347" fill="#f5f5f7">Virtualize</text>
     <rect class="node n2" x="252" y="320" width="136" height="44" rx="10" stroke-width="1.5"/>

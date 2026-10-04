@@ -15,10 +15,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/zyvorai/zyvor-fluxvm"><img src="https://img.shields.io/badge/Star_FluxVM-ff5a15?style=for-the-badge&logo=github&logoColor=white" alt="Star FluxVM"/></a>
+  <a href="https://github.com/zyvorai/zyvor-fluxvm"><img src="https://img.shields.io/badge/Star_FluxVM-0071e3?style=for-the-badge&logo=github&logoColor=white" alt="Star FluxVM"/></a>
   <a href="#try-it"><img src="https://img.shields.io/badge/Try_it_in_60s-18181b?style=for-the-badge&logo=gnubash&logoColor=white" alt="Try it in 60 seconds"/></a>
   <a href="https://zyvor.dev?utm_source=github&utm_medium=zyvorai_org"><img src="https://img.shields.io/badge/zyvor.dev-18181b?style=for-the-badge&logo=googlechrome&logoColor=white" alt="zyvor.dev"/></a>
-  <a href="https://zyvor.dev/contact?utm_source=github&utm_medium=zyvorai_org"><img src="https://img.shields.io/badge/Talk_to_us-cc420a?style=for-the-badge&logo=maildotru&logoColor=white" alt="Talk to us"/></a>
+  <a href="https://zyvor.dev/contact?utm_source=github&utm_medium=zyvorai_org"><img src="https://img.shields.io/badge/Talk_to_us-0071e3?style=for-the-badge&logo=maildotru&logoColor=white" alt="Talk to us"/></a>
 </p>
 
 ## What we build
@@ -60,19 +60,19 @@
 
 <table>
 <tr>
-<td width="24%" valign="top"><a href="https://github.com/zyvorai/zyvor-fluxvm"><b>FluxVM</b></a> <sub>Rust</sub><br/><a href="https://github.com/zyvorai/zyvor-fluxvm/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-fluxvm?style=flat-square&label=stars&labelColor=18181b&color=ff5a15" alt="FluxVM stars"/></a></td>
+<td width="24%" valign="top"><a href="https://github.com/zyvorai/zyvor-fluxvm"><b>FluxVM</b></a> <sub>Rust</sub><br/><a href="https://github.com/zyvorai/zyvor-fluxvm/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-fluxvm?style=flat-square&label=stars&labelColor=18181b&color=0071e3" alt="FluxVM stars"/></a></td>
 <td valign="top">One control plane for Firecracker, Cloud Hypervisor, QEMU/KVM and our own hypervisor. No libvirtd, no XML: one REST API and CLI on every backend. <a href="https://zyvorai.github.io/zyvor-fluxvm/">Docs &rarr;</a></td>
 </tr>
 <tr>
-<td width="24%" valign="top"><a href="https://github.com/zyvorai/zyvor-kairon"><b>Kairon</b></a> <sub>Go</sub><br/><a href="https://github.com/zyvorai/zyvor-kairon/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-kairon?style=flat-square&label=stars&labelColor=18181b&color=ff5a15" alt="Kairon stars"/></a></td>
+<td width="24%" valign="top"><a href="https://github.com/zyvorai/zyvor-kairon"><b>Kairon</b></a> <sub>Go</sub><br/><a href="https://github.com/zyvorai/zyvor-kairon/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-kairon?style=flat-square&label=stars&labelColor=18181b&color=0071e3" alt="Kairon stars"/></a></td>
 <td valign="top">Real VMs, real Kubernetes, no virt-launcher. Kubernetes declares, Kairon orchestrates, FluxVM executes. Live migration and eBPF flow logs built in. <a href="https://zyvorai.github.io/zyvor-kairon/">Docs &rarr;</a></td>
 </tr>
 <tr>
-<td width="24%" valign="top"><a href="https://github.com/zyvorai/zyvor-guestkit"><b>GuestKit</b></a> <sub>Rust</sub><br/><a href="https://github.com/zyvorai/zyvor-guestkit/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-guestkit?style=flat-square&label=stars&labelColor=18181b&color=ff5a15" alt="GuestKit stars"/></a></td>
+<td width="24%" valign="top"><a href="https://github.com/zyvorai/zyvor-guestkit"><b>GuestKit</b></a> <sub>Rust</sub><br/><a href="https://github.com/zyvorai/zyvor-guestkit/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-guestkit?style=flat-square&label=stars&labelColor=18181b&color=0071e3" alt="GuestKit stars"/></a></td>
 <td valign="top">Look inside any VM disk without booting it. Zero agents, instant insight, and AI diagnostics that tell you what's broken before first boot. <a href="https://zyvorai.github.io/zyvor-guestkit/">Docs &rarr;</a></td>
 </tr>
 <tr>
-<td width="24%" valign="top"><a href="https://github.com/zyvorai/zyvorai-fabric"><b>Fabric</b></a> <sub>Rust</sub><br/><a href="https://github.com/zyvorai/zyvorai-fabric/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/zyvorai-fabric?style=flat-square&label=stars&labelColor=18181b&color=ff5a15" alt="Fabric stars"/></a></td>
+<td width="24%" valign="top"><a href="https://github.com/zyvorai/zyvorai-fabric"><b>Fabric</b></a> <sub>Rust</sub><br/><a href="https://github.com/zyvorai/zyvorai-fabric/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/zyvorai-fabric?style=flat-square&label=stars&labelColor=18181b&color=0071e3" alt="Fabric stars"/></a></td>
 <td valign="top">A private cloud for Linux in one daemon: VMs, networking, storage and security. <a href="https://zyvorai.github.io/zyvorai-fabric/">Docs &rarr;</a></td>
 </tr>
 </table>

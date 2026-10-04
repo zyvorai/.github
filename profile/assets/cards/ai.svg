@@ -9,8 +9,8 @@
     @keyframes chip { 0%,100% { fill-opacity: .15; } 40% { fill-opacity: 1; } }
   </style>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#141418"/><stop offset="1" stop-color="#1f140c"/></linearGradient>
-    <linearGradient id="sh" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff5a15" stop-opacity="0"/><stop offset=".5" stop-color="#ff7a2e"/><stop offset="1" stop-color="#ff5a15" stop-opacity="0"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#141418"/><stop offset="1" stop-color="#0b1524"/></linearGradient>
+    <linearGradient id="sh" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0071e3" stop-opacity="0"/><stop offset=".5" stop-color="#2997ff"/><stop offset="1" stop-color="#0071e3" stop-opacity="0"/></linearGradient>
     <clipPath id="c"><rect width="420" height="220" rx="16"/></clipPath>
   </defs>
   <g clip-path="url(#c)">
@@ -18,22 +18,22 @@
     <rect class="bar" width="160" height="3" fill="url(#sh)"/>
   </g>
   <rect x=".5" y=".5" width="419" height="219" rx="16" fill="none" stroke="rgba(255,255,255,.1)"/>
-  <g fill="none" stroke="#ff7a2e" stroke-width="2.5" stroke-linecap="round">
+  <g fill="none" stroke="#2997ff" stroke-width="2.5" stroke-linecap="round">
     <rect x="32" y="34" width="40" height="40" rx="6"/>
     <path d="M42 28v6M52 28v6M62 28v6M42 74v6M52 74v6M62 74v6M26 44h6M26 54h6M26 64h6M72 44h6M72 54h6M72 64h6"/>
   </g>
-  <g fill="#ff7a2e">
+  <g fill="#2997ff">
     <rect class="core" x="40" y="42" width="10" height="10" rx="2"/>
     <rect class="core c2" x="54" y="42" width="10" height="10" rx="2"/>
     <rect class="core c4" x="40" y="56" width="10" height="10" rx="2"/>
     <rect class="core c3" x="54" y="56" width="10" height="10" rx="2"/>
   </g>
   <text class="t" x="96" y="56" fill="#f5f5f7" font-size="24" font-weight="800">AI &amp; GPU</text>
-  <text class="t" x="96" y="78" fill="#ff8f4f" font-size="13" font-weight="600">GPU is the new CPU.</text>
+  <text class="t" x="96" y="78" fill="#6cb4ff" font-size="13" font-weight="600">GPU is the new CPU.</text>
   <text class="t" x="30" y="118" fill="#c4c4cc" font-size="15">Schedule GPUs, serve models, and turn live</text>
   <text class="t" x="30" y="140" fill="#c4c4cc" font-size="15">signals into human-approved actions.</text>
   <g class="m" font-size="12" font-weight="600">
-    <rect x="30" y="166" width="72" height="26" rx="13" fill="rgba(255,90,21,.14)" stroke="rgba(255,90,21,.45)"/><text x="66" y="183" fill="#ffb088" text-anchor="middle">Gryvia</text>
+    <rect x="30" y="166" width="72" height="26" rx="13" fill="rgba(41,151,255,.14)" stroke="rgba(41,151,255,.45)"/><text x="66" y="183" fill="#a8d1ff" text-anchor="middle">Gryvia</text>
     <rect x="110" y="166" width="72" height="26" rx="13" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.14)"/><text x="146" y="183" fill="#e4e4ea" text-anchor="middle">Zyntra</text>
     <rect x="190" y="166" width="64" height="26" rx="13" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.14)"/><text x="222" y="183" fill="#e4e4ea" text-anchor="middle">Janus</text>
   </g>
