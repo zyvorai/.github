@@ -58,12 +58,24 @@
 
 ## Flagships
 
-| | Project | Why it's cool |
-|:---:|:---|:---|
-| <a href="https://github.com/zyvorai/zyvor-fluxvm"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-fluxvm?style=flat-square&logo=github&label=%E2%98%85&labelColor=18181b&color=ff5a15" alt="FluxVM stars"/></a> | **[FluxVM](https://github.com/zyvorai/zyvor-fluxvm)** &middot; Rust | One control plane for Firecracker, Cloud Hypervisor, QEMU/KVM and our own hypervisor. No libvirtd, no XML: one REST API and CLI on every backend. [Docs](https://zyvorai.github.io/zyvor-fluxvm/) |
-| <a href="https://github.com/zyvorai/zyvor-kairon"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-kairon?style=flat-square&logo=github&label=%E2%98%85&labelColor=18181b&color=ff5a15" alt="Kairon stars"/></a> | **[Kairon](https://github.com/zyvorai/zyvor-kairon)** &middot; Go | Real VMs, real Kubernetes, no virt-launcher. Kubernetes declares, Kairon orchestrates, FluxVM executes. Live migration and eBPF flow logs built in. [Docs](https://zyvorai.github.io/zyvor-kairon/) |
-| <a href="https://github.com/zyvorai/zyvor-guestkit"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-guestkit?style=flat-square&logo=github&label=%E2%98%85&labelColor=18181b&color=ff5a15" alt="GuestKit stars"/></a> | **[GuestKit](https://github.com/zyvorai/zyvor-guestkit)** &middot; Rust | Look inside any VM disk without booting it. Zero agents, instant insight, and AI diagnostics that tell you what's broken before first boot. [Docs](https://zyvorai.github.io/zyvor-guestkit/) |
-| <a href="https://github.com/zyvorai/zyvorai-fabric"><img src="https://img.shields.io/github/stars/zyvorai/zyvorai-fabric?style=flat-square&logo=github&label=%E2%98%85&labelColor=18181b&color=ff5a15" alt="Fabric stars"/></a> | **[Fabric](https://github.com/zyvorai/zyvorai-fabric)** &middot; Rust | A private cloud for Linux in one daemon: VMs, networking, storage and security. [Docs](https://zyvorai.github.io/zyvorai-fabric/) |
+<table>
+<tr>
+<td width="24%" valign="top"><a href="https://github.com/zyvorai/zyvor-fluxvm"><b>FluxVM</b></a> <sub>Rust</sub><br/><a href="https://github.com/zyvorai/zyvor-fluxvm/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-fluxvm?style=flat-square&label=stars&labelColor=18181b&color=ff5a15" alt="FluxVM stars"/></a></td>
+<td valign="top">One control plane for Firecracker, Cloud Hypervisor, QEMU/KVM and our own hypervisor. No libvirtd, no XML: one REST API and CLI on every backend. <a href="https://zyvorai.github.io/zyvor-fluxvm/">Docs &rarr;</a></td>
+</tr>
+<tr>
+<td width="24%" valign="top"><a href="https://github.com/zyvorai/zyvor-kairon"><b>Kairon</b></a> <sub>Go</sub><br/><a href="https://github.com/zyvorai/zyvor-kairon/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-kairon?style=flat-square&label=stars&labelColor=18181b&color=ff5a15" alt="Kairon stars"/></a></td>
+<td valign="top">Real VMs, real Kubernetes, no virt-launcher. Kubernetes declares, Kairon orchestrates, FluxVM executes. Live migration and eBPF flow logs built in. <a href="https://zyvorai.github.io/zyvor-kairon/">Docs &rarr;</a></td>
+</tr>
+<tr>
+<td width="24%" valign="top"><a href="https://github.com/zyvorai/zyvor-guestkit"><b>GuestKit</b></a> <sub>Rust</sub><br/><a href="https://github.com/zyvorai/zyvor-guestkit/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/zyvor-guestkit?style=flat-square&label=stars&labelColor=18181b&color=ff5a15" alt="GuestKit stars"/></a></td>
+<td valign="top">Look inside any VM disk without booting it. Zero agents, instant insight, and AI diagnostics that tell you what's broken before first boot. <a href="https://zyvorai.github.io/zyvor-guestkit/">Docs &rarr;</a></td>
+</tr>
+<tr>
+<td width="24%" valign="top"><a href="https://github.com/zyvorai/zyvorai-fabric"><b>Fabric</b></a> <sub>Rust</sub><br/><a href="https://github.com/zyvorai/zyvorai-fabric/stargazers"><img src="https://img.shields.io/github/stars/zyvorai/zyvorai-fabric?style=flat-square&label=stars&labelColor=18181b&color=ff5a15" alt="Fabric stars"/></a></td>
+<td valign="top">A private cloud for Linux in one daemon: VMs, networking, storage and security. <a href="https://zyvorai.github.io/zyvorai-fabric/">Docs &rarr;</a></td>
+</tr>
+</table>
 
 <a id="try-it"></a>
 ## &#9889; Try it in 60 seconds
@@ -90,8 +102,8 @@ flowchart LR
   kairon --> ai["Gryvia + Zyntra: GPUs and decisions"]
   legacy["Legacy hypervisors"] --> migrate["Transiva + GuestKit: migrate"]
   migrate --> flux
-  ebpf["Netra + Paqtra + Rivora: eBPF"] -.observes.-> kairon
-  ebpf -.observes.-> flux
+  ebpf["Netra + Paqtra + Rivora: eBPF"] -.->|observes| kairon
+  ebpf -.->|observes| flux
   edge["Nodra + Fleet + OTA: edge sites"] --> kairon
 ```
 
