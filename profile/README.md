@@ -2,9 +2,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/hero-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/hero-light.svg">
-    <img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/hero-dark.svg" alt="Zyvor: infrastructure, rebuilt from the kernel up" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/hero-dark.svg?v=blue1">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/hero-light.svg?v=blue1">
+    <img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/hero-dark.svg?v=blue1" alt="Zyvor: infrastructure, rebuilt from the kernel up" width="100%">
   </picture>
 </p>
 
@@ -26,31 +26,31 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/zyvorai/zyvor-fluxvm"><img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/cards/virtualize.svg" width="100%" alt="Virtualize"/></a><br/>
+<a href="https://github.com/zyvorai/zyvor-fluxvm"><img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/cards/virtualize.svg?v=blue1" width="100%" alt="Virtualize"/></a><br/>
 <a href="https://github.com/zyvorai/zyvor-fluxvm"><b>FluxVM</b></a> &middot; <a href="https://github.com/zyvorai/zyvor-machina">Machina</a> &middot; <a href="https://github.com/zyvorai/zyvorai-fabric">Fabric</a>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/zyvorai/zyvor-kairon"><img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/cards/kubernetes.svg" width="100%" alt="Kubernetes VMs"/></a><br/>
+<a href="https://github.com/zyvorai/zyvor-kairon"><img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/cards/kubernetes.svg?v=blue1" width="100%" alt="Kubernetes VMs"/></a><br/>
 <a href="https://github.com/zyvorai/zyvor-kairon"><b>Kairon</b></a> &middot; <a href="https://github.com/zyvorai/zyvor-zorvia">Zorvia</a> &middot; <a href="https://github.com/zyvorai/zyvor-kryton">Kryton</a> &middot; <a href="https://github.com/zyvorai/zyvor-haven">Haven</a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/zyvorai/zyvor-transiva"><img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/cards/migrate.svg" width="100%" alt="Migrate"/></a><br/>
+<a href="https://github.com/zyvorai/zyvor-transiva"><img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/cards/migrate.svg?v=blue1" width="100%" alt="Migrate"/></a><br/>
 <a href="https://github.com/zyvorai/zyvor-transiva"><b>Transiva</b></a> &middot; <a href="https://github.com/zyvorai/zyvor-guestkit">GuestKit</a> &middot; <a href="https://github.com/zyvorai/zyvor-h2kvm">h2kvm</a> &middot; <a href="https://github.com/zyvorai/scout">Scout</a> &middot; <a href="https://github.com/zyvorai/chimera">Chimera</a>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/zyvorai/zyvor-gryvia"><img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/cards/ai.svg" width="100%" alt="AI and GPU"/></a><br/>
+<a href="https://github.com/zyvorai/zyvor-gryvia"><img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/cards/ai.svg?v=blue1" width="100%" alt="AI and GPU"/></a><br/>
 <a href="https://github.com/zyvorai/zyvor-gryvia"><b>Gryvia</b></a> &middot; <a href="https://github.com/zyvorai/zyvor-zyntra">Zyntra</a> &middot; <a href="https://github.com/zyvorai/janus">Janus</a> &middot; <a href="https://github.com/zyvorai/verixa">Verixa</a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/zyvorai/zyvor-netra"><img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/cards/ebpf.svg" width="100%" alt="eBPF networking"/></a><br/>
+<a href="https://github.com/zyvorai/zyvor-netra"><img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/cards/ebpf.svg?v=blue1" width="100%" alt="eBPF networking"/></a><br/>
 <a href="https://github.com/zyvorai/zyvor-netra"><b>Netra</b></a> &middot; <a href="https://github.com/zyvorai/zyvor-paqtra">Paqtra</a> &middot; <a href="https://github.com/zyvorai/zyvor-rivora">Rivora</a> &middot; <a href="https://github.com/zyvorai/zyvor-shukra">Shukra</a> &middot; <a href="https://github.com/zyvorai/zyvor-netevd">netevd</a>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/zyvorai/nodra"><img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/cards/edge.svg" width="100%" alt="Edge and IoT"/></a><br/>
+<a href="https://github.com/zyvorai/nodra"><img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/cards/edge.svg?v=blue1" width="100%" alt="Edge and IoT"/></a><br/>
 <a href="https://github.com/zyvorai/nodra"><b>Nodra</b></a> &middot; <a href="https://github.com/zyvorai/zyvorai-fleet">Fleet</a> &middot; <a href="https://github.com/zyvorai/zyvor-device-agent">Device Agent</a> &middot; <a href="https://github.com/zyvorai/ota">OTA</a> &middot; <a href="https://zyvorai.github.io/edge-stack/">Edge Stack</a>
 </td>
 </tr>
@@ -81,7 +81,7 @@
 ## &#9889; Try it in 60 seconds
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/terminal.svg" width="88%" alt="Terminal demo: boot a VM with fluxctl, exec over vsock, schedule it with kaironctl and live-migrate it"/>
+  <img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/terminal.svg?v=blue1" width="88%" alt="Terminal demo: boot a VM with fluxctl, exec over vsock, schedule it with kaironctl and live-migrate it"/>
 </p>
 
 ```bash
@@ -96,7 +96,7 @@ kaironctl migrate demo --strategy live --target-node worker-2
 ## How it fits together
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/stack.svg" width="92%" alt="How Zyvor fits together: migrate into FluxVM, run VMs on Kubernetes with Kairon, add GPUs with Gryvia, observe with eBPF, extend to the edge"/>
+  <img src="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/stack.svg?v=blue1" width="92%" alt="How Zyvor fits together: migrate into FluxVM, run VMs on Kubernetes with Kairon, add GPUs with Gryvia, observe with eBPF, extend to the edge"/>
 </p>
 
 <p align="center">
