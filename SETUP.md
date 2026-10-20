@@ -8,10 +8,10 @@ k8s-native private cloud + hypervisor exit · Axiom · KubeVirt · KVM · zyvor.
 ```
 
 ## Pin repositories (order matters)
-1. `zyvorai/guestkit`
-2. `zyvorai/fabric`
-3. `zyvorai/kryton`
-4. `zyvorai/haven`
+1. `zyvorai/zyvor-guestkit`
+2. `zyvorai/zyvorai-fabric`
+3. `zyvorai/zyvor-kryton`
+4. `zyvorai/zyvor-haven`
 5. `zyvorai/scout`
 6. `zyvorai/kairo`
 

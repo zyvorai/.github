@@ -9,7 +9,7 @@ Apply these in the account/org profile settings for **@zyvorai**. Requires owner
 | **Website** | `https://zyvor.dev` |
 | **Public email** | `sales@zyvor.dev` |
 | **Location** | (optional) |
-| **Pinned repositories** | `guestkit`, `fabric`, `kryton`, `haven`, `scout`, `edge-stack` |
+| **Pinned repositories** | `zyvor-guestkit`, `zyvorai-fabric`, `zyvor-kryton`, `zyvor-haven`, `scout`, `edge-stack` |
 
 Narrative repo: [zyvorai/zyvorai](https://github.com/zyvorai/zyvorai) (user profile README when the account is still a user).
 

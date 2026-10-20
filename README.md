@@ -7,8 +7,8 @@ This is **separate** from **[zyvorai/hypersdk](https://github.com/zyvorai/hypers
 ## Publish
 
 ```bash
-cd zyvorai-github
-git add profile/README.md
+cd zyvor-org-profile   # or your local clone of zyvorai/.github
+git add profile/
 git commit -m "Update organization profile README"
 git push
 ```
