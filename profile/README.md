@@ -19,6 +19,7 @@
   <a href="#try-it"><img src="https://img.shields.io/badge/Try_it_in_60s-18181b?style=for-the-badge&logo=gnubash&logoColor=white" alt="Try it in 60 seconds"/></a>
   <a href="https://zyvor.dev?utm_source=github&utm_medium=zyvorai_org"><img src="https://img.shields.io/badge/zyvor.dev-18181b?style=for-the-badge&logo=googlechrome&logoColor=white" alt="zyvor.dev"/></a>
   <a href="https://zyvor.dev/contact?utm_source=github&utm_medium=zyvorai_org"><img src="https://img.shields.io/badge/Talk_to_us-0071e3?style=for-the-badge&logo=maildotru&logoColor=white" alt="Talk to us"/></a>
+  <a href="https://github.com/sponsors/zyvorai"><img src="https://img.shields.io/badge/Sponsor-18181b?style=for-the-badge&logo=githubsponsors&logoColor=ec6cb9" alt="Sponsor Zyvor"/></a>
 </p>
 
 ## What we build
@@ -160,5 +161,5 @@ Kernel, Rust, Go, eBPF or Kubernetes nerd? We want to hear from you.
 ---
 
 <p align="center">
-  <sub><a href="https://zyvor.dev?utm_source=github&utm_medium=zyvorai_org">zyvor.dev</a> &middot; <a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a> &middot; Built in the open &middot; Apache-2.0 core</sub>
+  <sub><a href="https://zyvor.dev?utm_source=github&utm_medium=zyvorai_org">zyvor.dev</a> &middot; <a href="https://github.com/sponsors/zyvorai">Sponsor us</a> &middot; <a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a> &middot; Built in the open &middot; Apache-2.0 core</sub>
 </p>
