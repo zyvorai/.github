@@ -9,7 +9,7 @@
   </style>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#141418"/><stop offset="1" stop-color="#0b1524"/></linearGradient>
-    <linearGradient id="sh" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0071e3" stop-opacity="0"/><stop offset=".5" stop-color="#2997ff"/><stop offset="1" stop-color="#0071e3" stop-opacity="0"/></linearGradient>
+    <linearGradient id="sh" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#16a34a" stop-opacity="0"/><stop offset=".5" stop-color="#4ade80"/><stop offset="1" stop-color="#16a34a" stop-opacity="0"/></linearGradient>
     <clipPath id="c"><rect width="420" height="220" rx="16"/></clipPath>
   </defs>
   <g clip-path="url(#c)">
@@ -18,15 +18,15 @@
   </g>
   <rect x=".5" y=".5" width="419" height="219" rx="16" fill="none" stroke="rgba(255,255,255,.1)"/>
   <g fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M26 54h12l6-16 10 32 8-24 6 8h12" stroke="#2997ff" stroke-opacity=".25"/>
-    <path class="wave" d="M26 54h12l6-16 10 32 8-24 6 8h12" stroke="#2997ff"/>
+    <path d="M26 54h12l6-16 10 32 8-24 6 8h12" stroke="#4ade80" stroke-opacity=".25"/>
+    <path class="wave" d="M26 54h12l6-16 10 32 8-24 6 8h12" stroke="#4ade80"/>
   </g>
   <text class="t" x="96" y="56" fill="#f5f5f7" font-size="24" font-weight="800">eBPF Networking</text>
-  <text class="t" x="96" y="78" fill="#6cb4ff" font-size="13" font-weight="600">Trace every flow. Drop nothing silently.</text>
+  <text class="t" x="96" y="78" fill="#86efac" font-size="13" font-weight="600">Trace every flow. Drop nothing silently.</text>
   <text class="t" x="30" y="118" fill="#c4c4cc" font-size="15">Kernel-level observability, load balancing</text>
   <text class="t" x="30" y="140" fill="#c4c4cc" font-size="15">and runtime security for Linux and KVM.</text>
   <g class="m" font-size="12" font-weight="600">
-    <rect x="30" y="166" width="64" height="26" rx="13" fill="rgba(41,151,255,.14)" stroke="rgba(41,151,255,.45)"/><text x="62" y="183" fill="#a8d1ff" text-anchor="middle">Netra</text>
+    <rect x="30" y="166" width="64" height="26" rx="13" fill="rgba(74,222,128,.14)" stroke="rgba(74,222,128,.45)"/><text x="62" y="183" fill="#bbf7d0" text-anchor="middle">Netra</text>
     <rect x="102" y="166" width="72" height="26" rx="13" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.14)"/><text x="138" y="183" fill="#e4e4ea" text-anchor="middle">Paqtra</text>
     <rect x="182" y="166" width="72" height="26" rx="13" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.14)"/><text x="218" y="183" fill="#e4e4ea" text-anchor="middle">Rivora</text>
     <rect x="262" y="166" width="72" height="26" rx="13" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.14)"/><text x="298" y="183" fill="#e4e4ea" text-anchor="middle">Shukra</text>

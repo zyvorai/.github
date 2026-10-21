@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="220" viewBox="0 0 420 220" role="img" aria-label="Apple Silicon: VMs, local models and fleet scheduling on Macs. Velora, Gryvia for Apple, Macora, Nivora.">
+  <style>
+    .t { font-family: system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif; }
+    .m { font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
+    .bar { animation: sweep 4s ease-in-out infinite; }
+    @keyframes sweep { 0% { transform: translateX(-160px); } 100% { transform: translateX(420px); } }
+    .ic { animation: breathe 3.5s ease-in-out infinite; transform-origin: 52px 56px; }
+    @keyframes breathe { 0%,100% { transform: scale(1); } 50% { transform: scale(1.06); } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#141418"/><stop offset="1" stop-color="#0b1524"/></linearGradient>
+    <linearGradient id="sh" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ca8a04" stop-opacity="0"/><stop offset=".5" stop-color="#facc15"/><stop offset="1" stop-color="#ca8a04" stop-opacity="0"/></linearGradient>
+    <clipPath id="c"><rect width="420" height="220" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="420" height="220" fill="url(#bg)"/>
+    <rect class="bar" width="160" height="3" fill="url(#sh)"/>
+  </g>
+  <rect x=".5" y=".5" width="419" height="219" rx="16" fill="none" stroke="rgba(255,255,255,.1)"/>
+  <g class="ic" fill="none" stroke="#facc15" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="36" y="38" width="32" height="32" rx="6"/>
+    <rect x="44" y="46" width="16" height="16" rx="2"/>
+    <path d="M44 30v8M52 30v8M60 30v8M44 70v8M52 70v8M60 70v8M28 46h8M28 54h8M28 62h8M68 46h8M68 54h8M68 62h8" stroke-linecap="round"/>
+  </g>
+  <text class="t" x="96" y="56" fill="#f5f5f7" font-size="24" font-weight="800">Apple Silicon</text>
+  <text class="t" x="96" y="78" fill="#fde047" font-size="13" font-weight="600">Your Mac. Your fleet.</text>
+  <text class="t" x="30" y="118" fill="#c4c4cc" font-size="15">VMs, local MLX models and a scheduler for</text>
+  <text class="t" x="30" y="140" fill="#c4c4cc" font-size="15">Apple Silicon fleets, on Virtualization.framework.</text>
+    <g class="m" font-size="12" font-weight="600">
+    <rect x="30" y="166" width="72" height="26" rx="13" fill="rgba(250,204,21,.14)" stroke="rgba(250,204,21,.45)"/><text x="66" y="183" fill="#fef08a" text-anchor="middle">Velora</text>
+    <rect x="110" y="166" width="100" height="26" rx="13" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.14)"/><text x="160" y="183" fill="#e4e4ea" text-anchor="middle">Gryvia Apple</text>
+    <rect x="218" y="166" width="72" height="26" rx="13" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.14)"/><text x="254" y="183" fill="#e4e4ea" text-anchor="middle">Macora</text>
+    <rect x="298" y="166" width="72" height="26" rx="13" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.14)"/><text x="334" y="183" fill="#e4e4ea" text-anchor="middle">Nivora</text>
+  </g>
+</svg>
