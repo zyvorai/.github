@@ -127,7 +127,7 @@ kaironctl create demo --image ubuntu.qcow2 --cpu 2 --memory 2Gi
 kaironctl migrate demo --strategy live --target-node worker-2
 ```
 
-**On a Mac (Apple silicon, macOS 14+):**
+**On a Mac (Apple silicon; the Homebrew tools need macOS 14+):**
 
 ```bash
 brew tap zyvorai/tap
@@ -137,7 +137,7 @@ fluxctl run                              # a throwaway Debian VM and a shell
 brew install --cask zyvorai/tap/macora   # explain why your network is slow: app + CLI
 ```
 
-Velora is not in the tap: grab the `.pkg` or `.dmg` from the <a href="https://github.com/zyvorai/velora/releases/latest">latest release</a>. It is ad-hoc signed, so the first time, right-click it and choose Open.
+Velora is not in the tap and needs macOS 26+: grab the `.pkg` or `.dmg` from the <a href="https://github.com/zyvorai/velora/releases/latest">latest release</a>. It is ad-hoc signed, so the first time, right-click it and choose Open.
 
 <sub>Full quick starts: <a href="https://github.com/zyvorai/zyvor-fluxvm#quick-start">FluxVM</a> &middot; <a href="https://github.com/zyvorai/zyvor-kairon">Kairon</a> &middot; <a href="https://github.com/zyvorai/zyvor-guestkit">GuestKit</a> &middot; <a href="https://github.com/zyvorai/velora">Velora</a> &middot; <a href="https://github.com/zyvorai/homebrew-tap">Homebrew tap</a></sub>
 
