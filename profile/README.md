@@ -141,6 +141,78 @@ Velora is not in the tap and needs macOS 26+: grab the `.pkg` or `.dmg` from the
 
 <sub>Full quick starts: <a href="https://github.com/zyvorai/zyvor-fluxvm#quick-start">FluxVM</a> &middot; <a href="https://github.com/zyvorai/zyvor-kairon">Kairon</a> &middot; <a href="https://github.com/zyvorai/zyvor-guestkit">GuestKit</a> &middot; <a href="https://github.com/zyvorai/velora">Velora</a> &middot; <a href="https://github.com/zyvorai/homebrew-tap">Homebrew tap</a></sub>
 
+## Install and try every product
+
+New: apps for hospitals, imaging, travel, schools, retail and community nutrition (ZYVORA, Zyvor Imaging, Stays, Campus, Retail, Nourish). Each runs self-hosted and ships a public evaluation site with synthetic data only.
+
+Install, try and read about every public Zyvor product. Full guide: https://zyvor.dev/docs/install-all
+
+<details>
+<summary>All public products: install, live site, repo</summary>
+
+| Product | Install | Live site | Repo |
+|---|---|---|---|
+| [Aether](https://zyvor.dev/aether) | See the README | [Open](https://zyvorai.github.io/Aether/) | [Aether](https://github.com/zyvorai/Aether) |
+| [Atlas](https://zyvor.dev/atlas) | See the README | [Open](https://zyvorai.github.io/zyvor-atlas/) | [zyvor-atlas](https://github.com/zyvorai/zyvor-atlas) |
+| [Aurora](https://zyvor.dev/aurora) | One-line installer | [Open](https://zyvorai.github.io/aurora/) | [aurora](https://github.com/zyvorai/aurora) |
+| [Chimera](https://zyvor.dev/chimera) | Build from source | [Open](https://zyvorai.github.io/chimera/) | [chimera](https://github.com/zyvorai/chimera) |
+| [cloud-netconfig](https://zyvor.dev/cloud-netconfig) | Build from source | [Open](https://zyvorai.github.io/zyvor-cloud-netconfig/) | [zyvor-cloud-netconfig](https://github.com/zyvorai/zyvor-cloud-netconfig) |
+| [Zyvor Device Agent](https://zyvor.dev/zyvor-device-agent) | See the README | [Open](https://zyvorai.github.io/zyvor-device-agent/) | [zyvor-device-agent](https://github.com/zyvorai/zyvor-device-agent) |
+| [Duvora](https://zyvor.dev/duvora) | Build from source | - | [zyvor-duvora](https://github.com/zyvorai/zyvor-duvora) |
+| [FluxVM](https://zyvor.dev/fluxvm) | Build from source | [Open](https://zyvorai.github.io/zyvor-fluxvm/) | [zyvor-fluxvm](https://github.com/zyvorai/zyvor-fluxvm) |
+| [Gryvia](https://zyvor.dev/gryvia) | Build from source | [Open](https://zyvorai.github.io/zyvor-gryvia/) | [zyvor-gryvia](https://github.com/zyvorai/zyvor-gryvia) |
+| [Gryvia for Apple Silicon](https://zyvor.dev/gryvia-apple) | See the README | [Open](https://zyvorai.github.io/zyvor-gryvia-apple/) | [zyvor-gryvia-apple](https://github.com/zyvorai/zyvor-gryvia-apple) |
+| [GuestKit](https://zyvor.dev/guestkit) | See the README | [Open](https://zyvorai.github.io/zyvor-guestkit/) | [zyvor-guestkit](https://github.com/zyvorai/zyvor-guestkit) |
+| [h2kvm](https://zyvor.dev/h2kvm) | See the README | [Open](https://zyvorai.github.io/zyvor-h2kvm/) | [zyvor-h2kvm](https://github.com/zyvorai/zyvor-h2kvm) |
+| [Haven](https://zyvor.dev/haven) | Helm chart | [Open](https://zyvorai.github.io/zyvor-haven/) | [zyvor-haven](https://github.com/zyvorai/zyvor-haven) |
+| [HyperCluster](https://zyvor.dev/hypercluster) | See the README | - | [hypercluster](https://github.com/zyvorai/hypercluster) |
+| [Iris](https://zyvor.dev/iris) | See the README | - | [iris](https://github.com/zyvorai/iris) |
+| [Kairo](https://zyvor.dev/kairo) | Build from source | [Open](https://zyvorai.github.io/kairo/) | [kairo](https://github.com/zyvorai/kairo) |
+| [Kairon](https://zyvor.dev/kairon) | Helm chart | [Open](https://zyvorai.github.io/zyvor-kairon/) | [zyvor-kairon](https://github.com/zyvorai/zyvor-kairon) |
+| [Kavira](https://zyvor.dev/kavira) | Build from source | [Open](https://zyvorai.github.io/kavira/) | [kavira](https://github.com/zyvorai/kavira) |
+| [Kryton](https://zyvor.dev/kryton) | Build from source | [Open](https://zyvorai.github.io/zyvor-kryton/) | [zyvor-kryton](https://github.com/zyvorai/zyvor-kryton) |
+| [KubeFlight](https://zyvor.dev/kubeflight) | Build from source | [Open](https://zyvorai.github.io/zyvor-kubeflight/) | [zyvor-kubeflight](https://github.com/zyvorai/zyvor-kubeflight) |
+| [Machina](https://zyvor.dev/machina) | See the README | [Open](https://zyvorai.github.io/zyvor-machina/) | [zyvor-machina](https://github.com/zyvorai/zyvor-machina) |
+| [Macora](https://zyvor.dev/macora) | Build from source | [Open](https://zyvorai.github.io/zyvor-macora/) | [zyvor-macora](https://github.com/zyvorai/zyvor-macora) |
+| [netctl](https://zyvor.dev/netctl) | Build from source | [Open](https://zyvorai.github.io/netctl/) | [netctl](https://github.com/zyvorai/netctl) |
+| [netevd](https://zyvor.dev/netevd) | Release download | [Open](https://zyvorai.github.io/zyvor-netevd/) | [zyvor-netevd](https://github.com/zyvorai/zyvor-netevd) |
+| [Netra](https://zyvor.dev/netra) | Build from source | [Open](https://zyvorai.github.io/zyvor-netra/) | [zyvor-netra](https://github.com/zyvorai/zyvor-netra) |
+| [Nivora](https://zyvor.dev/nivora) | See the README | [Open](https://zyvorai.github.io/zyvor-nivora/) | [zyvor-nivora](https://github.com/zyvorai/zyvor-nivora) |
+| [Nodra](https://zyvor.dev/nodra) | See the README | [Open](https://zyvorai.github.io/nodra/) | [nodra](https://github.com/zyvorai/nodra) |
+| [Nuvora](https://zyvor.dev/nuvora) | Build from source | [Open](https://zyvorai.github.io/zyvor-nuvora/) | [zyvor-nuvora](https://github.com/zyvorai/zyvor-nuvora) |
+| [PacketWolf](https://zyvor.dev/packetwolf) | Container image | [Open](https://zyvorai.github.io/zyvor-packetwolf-site/) | [zyvor-packetwolf-site](https://github.com/zyvorai/zyvor-packetwolf-site) |
+| [Paqtra](https://zyvor.dev/paqtra) | See the README | [Open](https://zyvorai.github.io/zyvor-paqtra/) | [zyvor-paqtra](https://github.com/zyvorai/zyvor-paqtra) |
+| [relay-edge](https://zyvor.dev/relay-edge) | See the README | [Open](https://zyvorai.github.io/relay-edge/) | [relay-edge](https://github.com/zyvorai/relay-edge) |
+| [relay-pubsub](https://zyvor.dev/relay-pubsub) | Build from source | [Open](https://zyvorai.github.io/relay-pubsub/) | [relay-pubsub](https://github.com/zyvorai/relay-pubsub) |
+| [Rivora](https://zyvor.dev/rivora) | Build from source | [Open](https://zyvorai.github.io/zyvor-rivora/) | [zyvor-rivora](https://github.com/zyvorai/zyvor-rivora) |
+| [Scout](https://zyvor.dev/scout) | See the README | [Open](https://zyvorai.github.io/scout/) | [scout](https://github.com/zyvorai/scout) |
+| [Shukra](https://zyvor.dev/shukra) | Build from source | - | [zyvor-shukra](https://github.com/zyvorai/zyvor-shukra) |
+| [Teryon](https://zyvor.dev/teryon) | See the README | [Open](https://zyvorai.github.io/teryon/) | [teryon](https://github.com/zyvorai/teryon) |
+| [Transiva](https://zyvor.dev/transiva) | See the README | [Open](https://zyvorai.github.io/zyvor-transiva/) | [zyvor-transiva](https://github.com/zyvorai/zyvor-transiva) |
+| [Velora](https://zyvor.dev/velora) | See the README | [Open](https://zyvorai.github.io/velora/) | [velora](https://github.com/zyvorai/velora) |
+| [Verixa](https://zyvor.dev/verixa) | Build from source | [Open](https://zyvorai.github.io/verixa/) | [verixa](https://github.com/zyvorai/verixa) |
+| [Veyron](https://zyvor.dev/veyron) | Build from source | [Open](https://zyvorai.github.io/veyron/) | [veyron](https://github.com/zyvorai/veyron) |
+| [Vytrix](https://zyvor.dev/vytrix) | Build from source | [Open](https://zyvorai.github.io/zyvor-vytrix/) | [zyvor-vytrix](https://github.com/zyvorai/zyvor-vytrix) |
+| [Yard](https://zyvor.dev/yard) | Build from source | [Open](https://zyvorai.github.io/yard/) | [yard](https://github.com/zyvorai/yard) |
+| [Zeus OS](https://zyvor.dev/zeus-os) | Release download | [Open](https://zyvorai.github.io/zeus-os/) | [zeus-os](https://github.com/zyvorai/zeus-os) |
+| [Zoreon](https://zyvor.dev/zoreon) | Build from source | [Open](https://zyvorai.github.io/zoreon/) | [zoreon](https://github.com/zyvorai/zoreon) |
+| [Zorvia](https://zyvor.dev/zorvia) | See the README | [Open](https://zyvorai.github.io/zyvor-zorvia/) | [zyvor-zorvia](https://github.com/zyvorai/zyvor-zorvia) |
+| [Zyntra](https://zyvor.dev/zyntra) | Build from source | [Open](https://zyvorai.github.io/zyvor-zyntra/) | [zyvor-zyntra](https://github.com/zyvorai/zyvor-zyntra) |
+| [ZySign](https://zyvor.dev/zysign) | See the README | - | [zysign](https://github.com/zyvorai/zysign) |
+| [Zyvor Argus](https://zyvor.dev/zyvor-argus) | Build from source | [Open](https://zyvorai.github.io/zyvorai-argus/) | [zyvorai-argus](https://github.com/zyvorai/zyvorai-argus) |
+| [Zyvor Campus](https://zyvor.dev/zyvor-campus) | See the README | [Open](https://zyvorai.github.io/zyvor-campus-site/) | [zyvor-campus-site](https://github.com/zyvorai/zyvor-campus-site) |
+| [Zyvor Fabric](https://zyvor.dev/zyvor-fabric) | See the README | [Open](https://zyvorai.github.io/zyvorai-fabric/) | [zyvorai-fabric](https://github.com/zyvorai/zyvorai-fabric) |
+| [Zyvor Fleet](https://zyvor.dev/zyvor-fleet) | Build from source | [Open](https://zyvorai.github.io/zyvorai-fleet/) | [zyvorai-fleet](https://github.com/zyvorai/zyvorai-fleet) |
+| [Zyvor Imaging](https://zyvor.dev/zyvor-imaging) | See the README | [Open](https://zyvorai.github.io/zyvor-imaging-site/) | [zyvor-imaging-site](https://github.com/zyvorai/zyvor-imaging-site) |
+| [Zyvor Janus](https://zyvor.dev/zyvor-janus) | Build from source | - | [janus](https://github.com/zyvorai/janus) |
+| [Zyvor OTA](https://zyvor.dev/zyvor-ota) | See the README | [Open](https://zyvorai.github.io/ota/) | [ota](https://github.com/zyvorai/ota) |
+| [Zyvor Retail](https://zyvor.dev/zyvor-retail) | Build from source | [Open](https://zyvorai.github.io/zyvor-retail-site/) | [zyvor-retail-site](https://github.com/zyvorai/zyvor-retail-site) |
+| [Zyvor Stays](https://zyvor.dev/zyvor-stays) | See the README | [Open](https://zyvorai.github.io/zyvor-stays-site/) | [zyvor-stays-site](https://github.com/zyvorai/zyvor-stays-site) |
+| [ZYVORA](https://zyvor.dev/zyvora) | One-line installer | [Open](https://zyvora.zyvor.dev/) | [zyvor-zyvora-site](https://github.com/zyvorai/zyvor-zyvora-site) |
+| [Zyvora Nourish](https://zyvor.dev/zyvor-nourish) | See the README | [Open](https://zyvorai.github.io/zyvor-nourish-site/) | [zyvor-nourish-site](https://github.com/zyvorai/zyvor-nourish-site) |
+
+</details>
+
 ## How it fits together
 
 <p align="center">
