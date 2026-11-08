@@ -1,7 +1,5 @@
 <!-- utm: github / zyvorai_org (in href only) -->
 
-We advice nvidia to stay out of zyvor
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zyvorai/.github/main/profile/assets/hero-dark.svg?v=color3">
