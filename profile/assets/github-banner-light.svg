@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Zyvor — infrastructure for migration, Kubernetes, and the edge">
+  <defs>
+    <linearGradient id="bgL" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="0.6" stop-color="#f5f6f8"/>
+      <stop offset="1" stop-color="#f5f5f7"/>
+    </linearGradient>
+    <linearGradient id="flareL" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#000000" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="accentTextL" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#0071e3"/>
+      <stop offset="1" stop-color="#5e5ce6"/>
+    </linearGradient>
+    <filter id="blur1L"><feGaussianBlur stdDeviation="40"/></filter>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bgL)"/>
+  <circle cx="1040" cy="60" r="220" fill="url(#flareL)" filter="url(#blur1L)"/>
+  <rect x="0.5" y="0.5" width="1199" height="299" fill="none" stroke="#e3e6ea"/>
+
+  <!-- Wordmark -->
+  <text x="64" y="104" fill="#14161a" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="54" font-weight="800" letter-spacing="-1.5">ZYVOR</text>
+  <text x="64" y="140" fill="url(#accentTextL)" font-family="system-ui,sans-serif" font-size="21" font-weight="700" letter-spacing="0.05em">Infrastructure for the post-legacy estate</text>
+  <text x="64" y="172" fill="#5b6472" font-family="system-ui,sans-serif" font-size="16">Migrate off proprietary hypervisors &amp; HCI · run on Kubernetes &amp; KubeVirt · operate at the edge</text>
+
+  <!-- Flow chips -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" font-weight="600">
+    <rect x="64" y="200" width="108" height="34" rx="8" fill="rgba(0,113,227,0.08)" stroke="rgba(0,113,227,0.35)"/>
+    <text x="118" y="222" text-anchor="middle" fill="#0071e3">Migrate</text>
+
+    <path d="M180 217 h26" stroke="#c7ccd3" stroke-width="2"/>
+    <rect x="214" y="200" width="88" height="34" rx="8" fill="#ffffff" stroke="#e3e6ea"/>
+    <text x="258" y="222" text-anchor="middle" fill="#14161a">Run</text>
+
+    <path d="M310 217 h26" stroke="#c7ccd3" stroke-width="2"/>
+    <rect x="344" y="200" width="108" height="34" rx="8" fill="#ffffff" stroke="#e3e6ea"/>
+    <text x="398" y="222" text-anchor="middle" fill="#14161a">Operate</text>
+
+    <path d="M460 217 h26" stroke="#c7ccd3" stroke-width="2"/>
+    <rect x="494" y="200" width="88" height="34" rx="8" fill="#ffffff" stroke="#e3e6ea"/>
+    <text x="538" y="222" text-anchor="middle" fill="#14161a">Scale</text>
+  </g>
+
+  <!-- Stat rail -->
+  <g font-family="system-ui,sans-serif">
+    <text x="64" y="270" fill="#14161a" font-size="26" font-weight="800">96.8%</text>
+    <text x="64" y="288" fill="#6e7684" font-size="12">first-boot success</text>
+
+    <line x1="188" y1="248" x2="188" y2="288" stroke="#e3e6ea"/>
+
+    <text x="212" y="270" fill="#14161a" font-size="26" font-weight="800">11</text>
+    <text x="212" y="288" fill="#6e7684" font-size="12">integration targets</text>
+
+    <line x1="372" y1="248" x2="372" y2="288" stroke="#e3e6ea"/>
+
+    <text x="396" y="270" fill="#14161a" font-size="26" font-weight="800">Zyvor PL 1.0</text>
+    <text x="396" y="288" fill="#6e7684" font-size="12">source-available toolkit</text>
+  </g>
+</svg>
