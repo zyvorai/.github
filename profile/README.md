@@ -277,6 +277,10 @@ Kernel, Rust, Go, eBPF or Kubernetes nerd? We want to hear from you.
 
 </details>
 
+<p align="center">
+  <b>Pricing:</b> <a href="https://zyvor.dev/pricing">https://zyvor.dev/pricing</a> &middot; <b>Trial and buy:</b> <a href="https://zyvor.dev/buy">https://zyvor.dev/buy</a> (30-day trials, soft licences: nothing is disabled)
+</p>
+
 ---
 
 <p align="center">
