@@ -11,20 +11,20 @@
 <p align="center">
   <b>We build the infrastructure stack we always wanted:</b><br/>
   real VMs with a real API, Kubernetes-native virtualization, eBPF networking, GPU scheduling and an offline-first edge.<br/>
-  Written in Rust and Go. Source-available under the Zyvor Production License v1.0. Running it in production requires a paid commercial license.
+  Written in Rust and Go. Source-available under the Zyvor Production Licence v2.0. A 30-day trial is available on request from sales@zyvor.dev; production and any other use needs a paid Order.
 </p>
 
 ## Licence, in plain words
 
-Every Zyvor product is licensed under the **Zyvor Production License v1.0** ([SPDX `LicenseRef-Zyvor-Production-1.0`](https://github.com/zyvorai/veyron/blob/main/LICENSE)). You can read the source. You cannot run it for real work without paying.
+Every Zyvor product is licensed under the **Zyvor Production Licence v2.0** ([SPDX `LicenseRef-Zyvor-Production-2.0`](https://github.com/zyvorai/veyron/blob/main/LICENSE)). You can read the source. You cannot run it for real work without paying.
 
 | | What you may do | Cost |
 |---|---|---|
-| **Evaluate** | Try it for **30 days** per organization per product, in a lab or test environment, with no real data and no customers. Individuals may keep learning on their own, non-commercially. | Free |
-| **Production** | Run it for any live business use: real data or users, a customer or partner environment, a paid product or service, SaaS, hosting, managed services, OEM, appliances, or internal business-critical systems. | **Paid commercial license required** |
+| **Trial** | A 30-day trial per organization per product is available on request from sales@zyvor.dev, in a lab or test environment, with no real data and no customers. | A paid evaluation Order at no charge |
+| **Production** | Run it for any live business use: real data or users, a customer or partner environment, a paid product or service, SaaS, hosting, managed services, OEM, appliances, or internal business-critical systems. | **Paid Order required** |
 | **Not allowed** | Redistribute, resell, fork for production, publish a modified copy, strip notices, bypass or share licence keys, or split one deployment into several "tests". | Never |
 
-- **After 30 days** you must stop, or buy a license, or get a written extension from us.
+- **After 30 days** you must stop, or buy a licence, or get a written extension from us.
 - **Unlicensed production use** is billed at list price from the first day, with interest and costs, and ends your rights immediately. We may ask for a signed certification and audit your records.
 - **Older releases** that were published under Apache-2.0 or MIT stay under that license. Everything released under the Zyvor license is covered by it.
 
@@ -242,7 +242,7 @@ Install, try and read about every public Zyvor product. Full guide: https://zyvo
   <img src="https://img.shields.io/badge/KVM-18181b?style=flat-square&logo=qemu&logoColor=white" alt="KVM"/>
   <img src="https://img.shields.io/badge/Kubernetes-18181b?style=flat-square&logo=kubernetes&logoColor=326CE5" alt="Kubernetes"/>
   <img src="https://img.shields.io/badge/Firecracker-18181b?style=flat-square&logo=amazonaws&logoColor=FF9900" alt="Firecracker"/>
-  <img src="https://img.shields.io/badge/Zyvor_Production_1.0-18181b?style=flat-square" alt="Zyvor Production License 1.0"/>
+  <img src="https://img.shields.io/badge/Zyvor_Production_2.0-18181b?style=flat-square" alt="Zyvor Production Licence 2.0"/>
 </p>
 
 ## Pick your path
@@ -300,5 +300,5 @@ Kernel, Rust, Go, eBPF or Kubernetes nerd? We want to hear from you.
 ---
 
 <p align="center">
-  <sub><a href="https://zyvor.dev?utm_source=github&utm_medium=zyvorai_org">zyvor.dev</a> &middot; <a href="https://github.com/sponsors/zyvorai">Sponsor us</a> &middot; <a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a> &middot; Source-available &middot; Zyvor Production License v1.0</sub>
+  <sub><a href="https://zyvor.dev?utm_source=github&utm_medium=zyvorai_org">zyvor.dev</a> &middot; <a href="https://github.com/sponsors/zyvorai">Sponsor us</a> &middot; <a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a> &middot; Source-available &middot; Zyvor Production Licence v2.0</sub>
 </p>
