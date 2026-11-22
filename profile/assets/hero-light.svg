@@ -77,6 +77,6 @@
     <text x="1208" y="330" fill="#0f0f14" font-size="28" font-weight="800">47</text>
     <text x="1208" y="350" fill="#71717a" font-size="13">open repositories</text>
     <text x="1208" y="384" fill="#0f0f14" font-size="15" font-weight="700">Rust &#183; Go &#183; eBPF</text>
-    <text x="1208" y="402" fill="#71717a" font-size="13">Zyvor Production License</text>
+    <text x="1208" y="402" fill="#71717a" font-size="13">Zyvor Production Licence v2.0</text>
   </g>
 </svg>
